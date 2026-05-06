@@ -1,31 +1,47 @@
-import google.generativeai as genai
+import logging
+from groq import AsyncGroq
 from app.config import settings
 
-# Configure once at import time
-genai.configure(api_key=settings.GEMINI_API_KEY)
+logger = logging.getLogger(__name__)
 
-
-def get_model() -> genai.GenerativeModel:
-    """Returns a configured Gemini model instance."""
-    return genai.GenerativeModel(
-        model_name=settings.GEMINI_MODEL,
-        generation_config=genai.GenerationConfig(
-            temperature=0.2,        # low temp = consistent structured output
-            max_output_tokens=4096,
-        )
-    )
+# Single client instance — reused across all calls
+client = AsyncGroq(api_key=settings.GROQ_API_KEY)
 
 
 async def call_llm(prompt: str) -> str:
     """
     Single async wrapper for all LLM calls in the app.
-    Returns the text content of the first candidate.
-    Raises on API error — caller handles retry/fallback.
+    Uses Groq's chat completions API.
+    Returns the text content of the first choice.
+    Raises RuntimeError on API failure — caller handles retry.
     """
-    model = get_model()
-    response = await model.generate_content_async(prompt)
+    try:
+        response = await client.chat.completions.create(
+            model=settings.GROQ_MODEL,
+            messages=[
+                {
+                    "role": "system",
+                    "content": "You are a helpful assistant that returns structured JSON only."
+                },
+                {
+                    "role": "user",
+                    "content": prompt
+                }
+            ],
+            temperature=0.2,
+            max_tokens=2048,
+        )
+    except Exception as e:
+        raise RuntimeError(f"Groq API call failed: {e}") from e
 
-    if not response.candidates:
-        raise ValueError("Gemini returned no candidates. Check prompt or API quota.")
+    choices = response.choices
+    if not choices:
+        raise RuntimeError("Groq returned no choices. Check your API key or model name.")
 
-    return response.text.strip()
+    text = choices[0].message.content.strip()
+
+    if not text:
+        raise RuntimeError("Groq returned empty response.")
+
+    logger.debug(f"LLM response length: {len(text)} chars")
+    return text

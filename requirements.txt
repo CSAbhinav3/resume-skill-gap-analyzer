@@ -6,7 +6,7 @@ python-multipart==0.0.9       # PDF file upload support
 pdfplumber==0.11.0
 
 # LLM
-google-generativeai==0.8.3
+groq>=0.9.0
 
 # Embeddings + similarity
 sentence-transformers==3.0.0
