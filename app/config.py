@@ -8,8 +8,10 @@ class Settings(BaseSettings):
     EMBEDDING_MODEL:      str   = "all-MiniLM-L6-v2"
     TAXONOMY_EMB_PATH:    str   = "data/taxonomy/embeddings.npy"
     TAXONOMY_IDS_PATH:    str   = "data/taxonomy/skill_ids.json"
-    SIMILARITY_THRESHOLD: float = 0.75
+    SIMILARITY_THRESHOLD: float = 0.65
     MAX_MISSING_SKILLS:   int   = 15
+    ADZUNA_APP_ID:        str   = ""
+    ADZUNA_APP_KEY:       str   = ""
     DEBUG:                bool  = False
 
     class Config:
