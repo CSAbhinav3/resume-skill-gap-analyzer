@@ -5,6 +5,7 @@ class Settings(BaseSettings):
     DATABASE_URL:         str   = "sqlite+aiosqlite:///./dev.db"
     GROQ_API_KEY:         str
     GROQ_MODEL:           str   = "llama-3.3-70b-versatile"
+    GROQ_SCRAPER_MODEL: str = "llama-3.1-8b-instant"  # separate quota from main model
     EMBEDDING_MODEL:      str   = "all-MiniLM-L6-v2"
     TAXONOMY_EMB_PATH:    str   = "data/taxonomy/embeddings.npy"
     TAXONOMY_IDS_PATH:    str   = "data/taxonomy/skill_ids.json"

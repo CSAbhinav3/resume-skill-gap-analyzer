@@ -53,3 +53,8 @@ logs/
 
 # Docker
 *.env.docker
+
+# Taxonomy generated files
+data/taxonomy/frequency_map.json
+data/taxonomy/raw_job_descriptions/
+data/taxonomy/extractions.json
