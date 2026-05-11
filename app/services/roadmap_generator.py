@@ -5,6 +5,7 @@ import re
 from app.config import settings
 from app.services.gap_analyzer import GapAnalysisResult
 from app.utils.llm_client import call_llm
+from app.utils.resource_mapper import enrich_roadmap_with_resources
 
 logger = logging.getLogger(__name__)
 
@@ -227,6 +228,8 @@ async def generate_roadmap(
         try:
             response_text = await call_llm(prompt)
             roadmap = parse_roadmap_response(response_text)
+            # Replace LLM-generated resource links with verified curated URLS
+            roadmap = enrich_roadmap_with_resources(roadmap)
             roadmap["model_used"] = settings.GROQ_MODEL
 
             logger.info(

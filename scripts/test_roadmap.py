@@ -28,13 +28,22 @@ async def test():
 
     roadmap = await generate_roadmap(gap_result, target_role='Data Scientist')
 
-    print('=== WEEKLY BREAKDOWN ===')
-    for week in roadmap['weekly_breakdown']:
-        print(f"Week {week['week']} [{week['phase']}]: {week['focus']}")
-        print(f"  Goal: {week['goal']}")
-        print()
+    print('=== FULL ROADMAP WITH RESOURCES ===')
+    for phase in roadmap['phases']:
+        print(f"\n{'='*60}")
+        print(f"PHASE: {phase['phase'].upper()} — {phase['goal']}")
+        print(f"{'='*60}")
+        for week in phase['weeks']:
+            print(f"\nWeek {week['week']}: {week['focus']}")
+            print(f"  Goal: {week['goal']}")
+            print(f"  Topics:")
+            for t in week.get('topics', []):
+                print(f"    - {t}")
+            print(f"  Resources:")
+            for r in week.get('resources', []):
+                print(f"    * {r}")
 
-    print(f"Model: {roadmap['model_used']}")
+    print(f"\nModel: {roadmap['model_used']}")
 
 
 asyncio.run(test())
