@@ -85,6 +85,26 @@ RESOURCE_MAP = {
         {"title": "Grokking System Design", "platform": "educative.io", "url": "https://www.educative.io/courses/grokking-modern-system-design-interview-for-engineers-managers", "free": False},
         {"title": "ByteByteGo Newsletter", "platform": "ByteByteGo", "url": "https://bytebytego.com", "free": False},
     ],
+    "generative ai": [
+    {"title": "Generative AI for Everyone", "platform": "Coursera (Andrew Ng)", "url": "https://www.coursera.org/learn/generative-ai-for-everyone", "free": False},
+    {"title": "Google Generative AI Learning Path", "platform": "Google Cloud (free)", "url": "https://www.cloudskillsboost.google/paths/118", "free": True},
+    ],
+    "prompt engineering": [
+        {"title": "ChatGPT Prompt Engineering for Developers", "platform": "deeplearning.ai (free)", "url": "https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/", "free": True},
+        {"title": "Prompt Engineering Guide", "platform": "DAIR.AI (free)", "url": "https://www.promptingguide.ai", "free": True},
+    ],
+    "continuous learning": [
+        {"title": "Lifelong Machine Learning", "platform": "Coursera", "url": "https://www.coursera.org/learn/machine-learning", "free": False},
+        {"title": "Transfer Learning Guide", "platform": "TensorFlow (free)", "url": "https://www.tensorflow.org/tutorials/images/transfer_learning", "free": True},
+    ],
+    "mlops": [
+        {"title": "MLOps Specialization", "platform": "Coursera (deeplearning.ai)", "url": "https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops", "free": False},
+        {"title": "Made With ML — MLOps", "platform": "Goku Mohandas (free)", "url": "https://madewithml.com", "free": True},
+    ],
+    "data driven decision making": [
+        {"title": "Data-driven Decision Making", "platform": "Coursera (PwC)", "url": "https://www.coursera.org/learn/decision-making", "free": False},
+        {"title": "Making Data-Driven Decisions", "platform": "Google Analytics (free)", "url": "https://analytics.google.com/analytics/academy/", "free": True},
+    ],
 
     # ── PROGRAMMING LANGUAGES ──
     "python": [
