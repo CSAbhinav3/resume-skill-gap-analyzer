@@ -1,0 +1,37 @@
+version: "3.9"
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: resume-skill-gap-analyzer
+    ports:
+      - "8000:8000"
+    environment:
+      - GROQ_API_KEY=${GROQ_API_KEY}
+      - GROQ_MODEL=${GROQ_MODEL:-llama-3.3-70b-versatile}
+      - EMBEDDING_MODEL=${EMBEDDING_MODEL:-all-MiniLM-L6-v2}
+      - DATABASE_URL=${DATABASE_URL:-sqlite+aiosqlite:///./data/dev.db}
+      - TAXONOMY_EMB_PATH=${TAXONOMY_EMB_PATH:-data/taxonomy/embeddings.npy}
+      - TAXONOMY_IDS_PATH=${TAXONOMY_IDS_PATH:-data/taxonomy/skill_ids.json}
+      - SIMILARITY_THRESHOLD=${SIMILARITY_THRESHOLD:-0.65}
+      - MAX_MISSING_SKILLS=${MAX_MISSING_SKILLS:-15}
+      - ADZUNA_APP_ID=${ADZUNA_APP_ID:-}
+      - ADZUNA_APP_KEY=${ADZUNA_APP_KEY:-}
+      - DEBUG=${DEBUG:-false}
+    volumes:
+      # Persist database and eval outputs outside container
+      - ./data/eval_outputs:/app/data/eval_outputs
+      - resume_db:/app/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+
+volumes:
+  resume_db:
+    driver: local
