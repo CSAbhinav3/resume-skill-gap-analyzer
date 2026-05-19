@@ -13,6 +13,17 @@ from app.services.taxonomy_engine import taxonomy_index
 from app.services.gap_analyzer import analyze_gap
 from app.services.roadmap_generator import generate_roadmap
 from app.config import settings
+import os
+from pathlib import Path
+
+# Auto-build taxonomy if embeddings don't exist
+# Handles Streamlit Cloud cold starts
+if not Path("data/taxonomy/embeddings.npy").exists():
+    import subprocess
+    subprocess.run(
+        ["python", "scripts/build_taxonomy.py"],
+        check=True
+    )
 
 # ─────────────────────────────────────────────
 # PAGE CONFIG
