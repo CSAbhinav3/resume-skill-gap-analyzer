@@ -1,0 +1,27 @@
+services:
+  - type: web
+    name: resume-skill-gap-api
+    runtime: python
+    buildCommand: |
+      pip install -r requirements.txt
+      python scripts/build_taxonomy.py
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false
+      - key: GROQ_MODEL
+        value: llama-3.3-70b-versatile
+      - key: EMBEDDING_MODEL
+        value: all-MiniLM-L6-v2
+      - key: SIMILARITY_THRESHOLD
+        value: "0.65"
+      - key: MAX_MISSING_SKILLS
+        value: "15"
+      - key: DATABASE_URL
+        value: sqlite+aiosqlite:///./dev.db
+      - key: TAXONOMY_EMB_PATH
+        value: data/taxonomy/embeddings.npy
+      - key: TAXONOMY_IDS_PATH
+        value: data/taxonomy/skill_ids.json
+      - key: DEBUG
+        value: "false"

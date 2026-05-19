@@ -1,4 +1,3 @@
-# Python
 __pycache__/
 *.py[cod]
 *.pyo
@@ -6,12 +5,8 @@ __pycache__/
 venv/
 env/
 .venv/
-
-# Secrets
 .env
 *.env.docker
-
-# Data (generated locally)
 data/taxonomy/embeddings.npy
 data/taxonomy/skill_ids.json
 data/taxonomy/raw_job_descriptions/
@@ -20,19 +15,10 @@ data/taxonomy/extractions.json
 data/eval_outputs/
 data/sample_resumes/
 dev.db
-
-# Dev tools
 .vscode/
 .idea/
 *.swp
-
-# Git
 .git/
 .gitignore
-
-# Tests
 tests/
 pytest.ini
-
-# Docs
-README.md
