@@ -1,4 +1,4 @@
-fastapi==0.111.0
+fastapi>=0.115.0
 uvicorn[standard]==0.29.0
 python-multipart==0.0.9       # PDF file upload support
 
@@ -29,3 +29,5 @@ pytest-asyncio==0.23.7
 structlog==24.1.0
 
 pydantic-settings==2.3.4
+
+streamlit>=1.35.0
