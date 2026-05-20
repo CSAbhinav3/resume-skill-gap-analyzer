@@ -2,6 +2,16 @@ import asyncio
 import json
 import sys
 from pathlib import Path
+import os
+
+# ── Streamlit Cloud secrets → environment variables ──
+# pydantic-settings reads from os.environ, not st.secrets directly
+try:
+    import streamlit as st
+    for key, value in st.secrets.items():
+        os.environ[key] = str(value)
+except Exception:
+    pass  # Running locally — .env file handles this
 
 import streamlit as st
 
