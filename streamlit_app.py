@@ -1,4 +1,5 @@
 import asyncio
+import json
 import sys
 from pathlib import Path
 
@@ -7,23 +8,41 @@ import streamlit as st
 # Add project root to path
 sys.path.insert(0, str(Path(__file__).parent))
 
+# ─────────────────────────────────────────────
+# AUTO-BUILD TAXONOMY EMBEDDINGS
+# Runs on Streamlit Cloud cold start
+# No DB dependency — pure numpy + sentence-transformers
+# ─────────────────────────────────────────────
+if not Path("data/taxonomy/embeddings.npy").exists():
+    import numpy as np
+    from sentence_transformers import SentenceTransformer
+
+    with open("data/taxonomy/skill_taxonomy.json") as f:
+        taxonomy = json.load(f)
+
+    ordered_names = []
+    for category, skills in taxonomy.items():
+        ordered_names.extend(skills)
+
+    model = SentenceTransformer("all-MiniLM-L6-v2")
+    embeddings = model.encode(
+        ordered_names,
+        show_progress_bar=False,
+        normalize_embeddings=True
+    )
+
+    Path("data/taxonomy").mkdir(parents=True, exist_ok=True)
+    import numpy as np
+    np.save("data/taxonomy/embeddings.npy", embeddings.astype(np.float32))
+    with open("data/taxonomy/skill_ids.json", "w") as f:
+        json.dump(ordered_names, f)
+
 from app.services.pdf_ingestion import ingest_pdf, PDFIngestionError
 from app.services.skill_extractor import extract_skills
 from app.services.taxonomy_engine import taxonomy_index
 from app.services.gap_analyzer import analyze_gap
 from app.services.roadmap_generator import generate_roadmap
 from app.config import settings
-import os
-from pathlib import Path
-
-# Auto-build taxonomy if embeddings don't exist
-# Handles Streamlit Cloud cold starts
-if not Path("data/taxonomy/embeddings.npy").exists():
-    import subprocess
-    subprocess.run(
-        ["python", "scripts/build_taxonomy.py"],
-        check=True
-    )
 
 # ─────────────────────────────────────────────
 # PAGE CONFIG
@@ -77,24 +96,12 @@ st.markdown("""
         margin: 2px;
         font-size: 0.85rem;
     }
-    .metric-card {
-        background: #F5F9FF;
-        border-radius: 8px;
-        padding: 1rem;
-        text-align: center;
-        border: 1px solid #CCDDEE;
-    }
     .week-card {
         background: #FAFAFA;
         border-left: 4px solid #2E75B6;
         padding: 0.8rem 1rem;
         margin-bottom: 0.5rem;
         border-radius: 0 8px 8px 0;
-    }
-    .resource-link {
-        color: #2E75B6;
-        text-decoration: none;
-        font-size: 0.9rem;
     }
     .stProgress > div > div > div {
         background-color: #2E75B6;
@@ -104,7 +111,7 @@ st.markdown("""
 
 
 # ─────────────────────────────────────────────
-# LOAD TAXONOMY (cached — runs once)
+# LOAD TAXONOMY (cached — runs once per session)
 # ─────────────────────────────────────────────
 @st.cache_resource(show_spinner="Loading taxonomy index...")
 def load_taxonomy():
@@ -152,17 +159,16 @@ with st.sidebar:
 - **Similarity:** Cosine similarity
     """)
     st.markdown("---")
-    st.markdown(
-        "Built by **C S Abhinav** — Altruist Technologies",
-        unsafe_allow_html=True
-    )
+    st.markdown("Built by **C S Abhinav** — Altruist Technologies")
 
 
 # ─────────────────────────────────────────────
 # MAIN HEADER
 # ─────────────────────────────────────────────
-st.markdown('<p class="main-title">🎯 Resume Skill Gap Analyzer</p>',
-            unsafe_allow_html=True)
+st.markdown(
+    '<p class="main-title">🎯 Resume Skill Gap Analyzer</p>',
+    unsafe_allow_html=True
+)
 st.markdown(
     '<p class="subtitle">Upload your resume, enter your target role, '
     'and get a personalised 30/60/90-day learning roadmap.</p>',
@@ -190,8 +196,11 @@ with col2:
     )
     st.markdown("**Example roles:**")
     role_cols = st.columns(2)
-    roles = ["Data Scientist", "ML Engineer", "Backend Engineer",
-             "DevOps Engineer", "Data Analyst", "Full Stack Engineer"]
+    roles = [
+        "Data Scientist", "ML Engineer",
+        "Backend Engineer", "DevOps Engineer",
+        "Data Analyst", "Full Stack Engineer"
+    ]
     for i, role in enumerate(roles):
         if role_cols[i % 2].button(role, key=f"role_{i}", use_container_width=True):
             target_role = role
@@ -320,8 +329,10 @@ st.markdown("---")
 # ─────────────────────────────────────────────
 # RESULTS — EXTRACTED SKILLS
 # ─────────────────────────────────────────────
-st.markdown('<p class="section-header">✅ Your Current Skills</p>',
-            unsafe_allow_html=True)
+st.markdown(
+    '<p class="section-header">✅ Your Current Skills</p>',
+    unsafe_allow_html=True
+)
 
 tab1, tab2, tab3 = st.tabs([
     f"⚙️ Technical ({len(skills_data['technical_skills'])})",
@@ -364,8 +375,10 @@ st.markdown("---")
 # ─────────────────────────────────────────────
 # RESULTS — SKILL GAPS
 # ─────────────────────────────────────────────
-st.markdown('<p class="section-header">⚠️ Skill Gaps (Ranked by Priority)</p>',
-            unsafe_allow_html=True)
+st.markdown(
+    '<p class="section-header">⚠️ Skill Gaps (Ranked by Priority)</p>',
+    unsafe_allow_html=True
+)
 
 if gap_result.missing_skills:
     gap_col1, gap_col2 = st.columns([3, 2])
@@ -374,10 +387,10 @@ if gap_result.missing_skills:
         import pandas as pd
         gap_df = pd.DataFrame([
             {
-                "Rank":     s.priority_rank,
-                "Skill":    s.taxonomy_skill_name,
-                "Category": s.category.replace("_", " ").title(),
-                "Relevance Score": f"{s.similarity_score:.3f}",
+                "Rank":            s.priority_rank,
+                "Skill":           s.taxonomy_skill_name,
+                "Category":        s.category.replace("_", " ").title(),
+                "Relevance Score": s.similarity_score,
             }
             for s in gap_result.missing_skills
         ])
@@ -408,8 +421,10 @@ st.markdown("---")
 # ─────────────────────────────────────────────
 # RESULTS — ROADMAP
 # ─────────────────────────────────────────────
-st.markdown('<p class="section-header">🗺️ Your 30/60/90 Day Learning Roadmap</p>',
-            unsafe_allow_html=True)
+st.markdown(
+    '<p class="section-header">🗺️ Your 30/60/90 Day Learning Roadmap</p>',
+    unsafe_allow_html=True
+)
 
 phase_colors = {
     "30_day": "🟢",
@@ -428,13 +443,15 @@ for phase in roadmap.get("phases", []):
     icon       = phase_colors.get(phase_name, "⚪")
     label      = phase_labels.get(phase_name, phase_name)
 
-    with st.expander(f"{icon} {label} — {phase_goal}", expanded=phase_name == "30_day"):
-        weeks = phase.get("weeks", [])
-        for week in weeks:
-            week_num = week.get("week", "")
-            focus    = week.get("focus", "")
-            goal     = week.get("goal", "")
-            topics   = week.get("topics", [])
+    with st.expander(
+        f"{icon} {label} — {phase_goal}",
+        expanded=phase_name == "30_day"
+    ):
+        for week in phase.get("weeks", []):
+            week_num  = week.get("week", "")
+            focus     = week.get("focus", "")
+            goal      = week.get("goal", "")
+            topics    = week.get("topics", [])
             resources = week.get("resources", [])
 
             st.markdown(
@@ -453,13 +470,11 @@ for phase in roadmap.get("phases", []):
             if resources:
                 st.markdown("**Resources:**")
                 for r in resources:
-                    # Parse "Title — Platform — URL (Free/Paid)"
                     parts = r.split(" — ")
                     if len(parts) >= 3:
                         title    = parts[0]
                         platform = parts[1]
-                        url_part = parts[2]
-                        url      = url_part.split(" ")[0]
+                        url      = parts[2].split(" ")[0]
                         free     = "(Free)" in r
                         badge    = "🆓" if free else "💰"
                         st.markdown(
@@ -490,13 +505,13 @@ with st.expander("📅 Full Weekly Breakdown"):
         ])
         st.dataframe(weekly_df, use_container_width=True, hide_index=True)
 
+st.markdown("---")
+
 # ─────────────────────────────────────────────
 # DOWNLOAD RESULTS
 # ─────────────────────────────────────────────
-st.markdown("---")
 st.markdown("### 💾 Download Results")
 
-import json
 results_json = {
     "resume_file":      uploaded_file.name,
     "target_role":      target_role or "General",
@@ -506,7 +521,7 @@ results_json = {
         "soft_skills":      skills_data["soft_skills"],
     },
     "gap_analysis": {
-        "overall_match_score":   gap_result.overall_match_score,
+        "overall_match_score":    gap_result.overall_match_score,
         "filtered_taxonomy_size": gap_result.filtered_taxonomy_size,
         "missing_skills": [
             {
