@@ -4,18 +4,14 @@ import os
 import sys
 from pathlib import Path
 
-# ── MUST be first — before any app imports ──
-# Bridge Streamlit Cloud secrets into os.environ
-# pydantic-settings reads os.environ at import time
-# If this runs after app imports, the key is already locked as empty
+# ── Bridge Streamlit secrets BEFORE any app imports ──
 try:
     import streamlit as st
     for key, value in st.secrets.items():
         os.environ[key] = str(value)
 except Exception:
-    pass  # Local dev — .env handles it
+    pass
 
-# ── NOW safe to import app modules ──
 sys.path.insert(0, str(Path(__file__).parent))
 
 # Auto-build taxonomy embeddings if missing
@@ -42,15 +38,28 @@ if not Path("data/taxonomy/embeddings.npy").exists():
     with open("data/taxonomy/skill_ids.json", "w") as f:
         json.dump(ordered_names, f)
 
-# ── App imports AFTER secrets are in os.environ ──
+# ── Import app modules ──
 import streamlit as st
 from app.services.pdf_ingestion import ingest_pdf, PDFIngestionError
 from app.services.skill_extractor import extract_skills
 from app.services.taxonomy_engine import taxonomy_index
 from app.services.gap_analyzer import analyze_gap
 from app.services.roadmap_generator import generate_roadmap
-from app.config import settings
 
+# ── Patch settings with Streamlit secrets directly ──
+# This bypasses pydantic-settings caching issue on Streamlit Cloud
+from app.config import settings
+try:
+    if hasattr(st, 'secrets') and 'GROQ_API_KEY' in st.secrets:
+        settings.GROQ_API_KEY = st.secrets['GROQ_API_KEY']
+        settings.GROQ_MODEL = st.secrets.get('GROQ_MODEL', settings.GROQ_MODEL)
+except Exception:
+    pass  # Local dev — .env file handles this
+
+# ── Patch llm_client with correct API key ──
+import app.utils.llm_client as llm_client_module
+from groq import AsyncGroq
+llm_client_module.client = AsyncGroq(api_key=settings.GROQ_API_KEY)
 # ─────────────────────────────────────────────
 # PAGE CONFIG
 # ─────────────────────────────────────────────
