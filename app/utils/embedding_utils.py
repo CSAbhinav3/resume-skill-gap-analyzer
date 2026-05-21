@@ -17,10 +17,17 @@ def get_embedding_model() -> SentenceTransformer:
     Subsequent calls return the cached instance.
     """
     global _model
+
     if _model is None:
         logger.info(f"Loading embedding model: {settings.EMBEDDING_MODEL}")
-        _model = SentenceTransformer(settings.EMBEDDING_MODEL)
+
+        _model = SentenceTransformer(
+            settings.EMBEDDING_MODEL,
+            device="cpu"
+        )
+
         logger.info("Embedding model loaded.")
+
     return _model
 
 
