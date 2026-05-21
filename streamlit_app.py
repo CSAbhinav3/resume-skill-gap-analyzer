@@ -1,28 +1,24 @@
 import asyncio
 import json
+import os
 import sys
 from pathlib import Path
-import os
 
-# ── Streamlit Cloud secrets → environment variables ──
-# pydantic-settings reads from os.environ, not st.secrets directly
+# ── MUST be first — before any app imports ──
+# Bridge Streamlit Cloud secrets into os.environ
+# pydantic-settings reads os.environ at import time
+# If this runs after app imports, the key is already locked as empty
 try:
     import streamlit as st
     for key, value in st.secrets.items():
         os.environ[key] = str(value)
 except Exception:
-    pass  # Running locally — .env file handles this
+    pass  # Local dev — .env handles it
 
-import streamlit as st
-
-# Add project root to path
+# ── NOW safe to import app modules ──
 sys.path.insert(0, str(Path(__file__).parent))
 
-# ─────────────────────────────────────────────
-# AUTO-BUILD TAXONOMY EMBEDDINGS
-# Runs on Streamlit Cloud cold start
-# No DB dependency — pure numpy + sentence-transformers
-# ─────────────────────────────────────────────
+# Auto-build taxonomy embeddings if missing
 if not Path("data/taxonomy/embeddings.npy").exists():
     import numpy as np
     from sentence_transformers import SentenceTransformer
@@ -42,11 +38,12 @@ if not Path("data/taxonomy/embeddings.npy").exists():
     )
 
     Path("data/taxonomy").mkdir(parents=True, exist_ok=True)
-    import numpy as np
     np.save("data/taxonomy/embeddings.npy", embeddings.astype(np.float32))
     with open("data/taxonomy/skill_ids.json", "w") as f:
         json.dump(ordered_names, f)
 
+# ── App imports AFTER secrets are in os.environ ──
+import streamlit as st
 from app.services.pdf_ingestion import ingest_pdf, PDFIngestionError
 from app.services.skill_extractor import extract_skills
 from app.services.taxonomy_engine import taxonomy_index
