@@ -14,29 +14,6 @@ except Exception:
 
 sys.path.insert(0, str(Path(__file__).parent))
 
-# Auto-build taxonomy embeddings if missing
-if not Path("data/taxonomy/embeddings.npy").exists():
-    import numpy as np
-    from sentence_transformers import SentenceTransformer
-
-    with open("data/taxonomy/skill_taxonomy.json") as f:
-        taxonomy = json.load(f)
-
-    ordered_names = []
-    for category, skills in taxonomy.items():
-        ordered_names.extend(skills)
-
-    model = SentenceTransformer("all-MiniLM-L6-v2")
-    embeddings = model.encode(
-        ordered_names,
-        show_progress_bar=False,
-        normalize_embeddings=True
-    )
-
-    Path("data/taxonomy").mkdir(parents=True, exist_ok=True)
-    np.save("data/taxonomy/embeddings.npy", embeddings.astype(np.float32))
-    with open("data/taxonomy/skill_ids.json", "w") as f:
-        json.dump(ordered_names, f)
 
 # ── Import app modules ──
 import streamlit as st

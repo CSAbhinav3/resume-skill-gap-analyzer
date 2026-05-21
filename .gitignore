@@ -25,8 +25,8 @@ ENV/
 *.sqlite3
 
 # Embeddings + taxonomy (large binary files)
-data/taxonomy/embeddings.npy
-data/taxonomy/skill_ids.json
+# data/taxonomy/embeddings.npy
+# data/taxonomy/skill_ids.json
 
 # Uploaded resumes (user data, never commit)
 data/sample_resumes/
