@@ -7,7 +7,7 @@ https://resume-skill-gap-analyzer-dtqer5mn58wss9fkbasiec.streamlit.app/
 
 ## 🎥 Demo Video
 
-[Watch the Project Demo](https://www.loom.com/share/2674d938369544ba82710b71cf17d3d0)
+▶️ [Watch the 1-Minute Project Demo](https://www.loom.com/share/2674d938369544ba82710b71cf17d3d0)
 ---
 
 # 📌 Overview
