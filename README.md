@@ -5,6 +5,9 @@ An end-to-end AI/ML system that analyzes a candidate’s resume against a market
 🔗 **Live Demo:**  
 https://resume-skill-gap-analyzer-dtqer5mn58wss9fkbasiec.streamlit.app/
 
+## 🎥 Demo Video
+
+[Watch the Project Demo](https://www.loom.com/share/2674d938369544ba82710b71cf17d3d0)
 ---
 
 # 📌 Overview
@@ -491,9 +494,3 @@ AI/ML Engineer Intern — Altruist Technologies
 - LinkedIn: https://linkedin.com/in/cs-abhinav
 
 ---
-
-# 📄 License
-
-MIT License
-
-Free to use, modify, and distribute.
