@@ -1,0 +1,842 @@
+{
+  "machine learning": {
+    "category": "technical_skills",
+    "count": 117,
+    "name": "Machine Learning"
+  },
+  "aws": {
+    "category": "tools",
+    "count": 80,
+    "name": "AWS"
+  },
+  "python": {
+    "category": "technical_skills",
+    "count": 75,
+    "name": "Python"
+  },
+  "devops": {
+    "category": "technical_skills",
+    "count": 63,
+    "name": "DevOps"
+  },
+  "mlops": {
+    "category": "technical_skills",
+    "count": 58,
+    "name": "MLOps"
+  },
+  "generative ai": {
+    "category": "technical_skills",
+    "count": 56,
+    "name": "Generative AI"
+  },
+  "innovation": {
+    "category": "soft_skills",
+    "count": 55,
+    "name": "Innovation"
+  },
+  "cybersecurity": {
+    "category": "technical_skills",
+    "count": 55,
+    "name": "Cybersecurity"
+  },
+  "site reliability": {
+    "category": "technical_skills",
+    "count": 55,
+    "name": "Site Reliability"
+  },
+  "sql": {
+    "category": "technical_skills",
+    "count": 48,
+    "name": "SQL"
+  },
+  "ci/cd": {
+    "category": "technical_skills",
+    "count": 48,
+    "name": "CI/CD"
+  },
+  "kubernetes": {
+    "category": "tools",
+    "count": 41,
+    "name": "Kubernetes"
+  },
+  "data science": {
+    "category": "technical_skills",
+    "count": 38,
+    "name": "Data Science"
+  },
+  "gcp": {
+    "category": "tools",
+    "count": 34,
+    "name": "GCP"
+  },
+  "typescript": {
+    "category": "tools",
+    "count": 34,
+    "name": "TypeScript"
+  },
+  "leadership": {
+    "category": "soft_skills",
+    "count": 31,
+    "name": "Leadership"
+  },
+  "data pipelines": {
+    "category": "technical_skills",
+    "count": 30,
+    "name": "Data Pipelines"
+  },
+  "ownership": {
+    "category": "soft_skills",
+    "count": 30,
+    "name": "Ownership"
+  },
+  "oracle": {
+    "category": "tools",
+    "count": 25,
+    "name": "Oracle"
+  },
+  "java": {
+    "category": "technical_skills",
+    "count": 21,
+    "name": "Java"
+  },
+  "postgresql": {
+    "category": "tools",
+    "count": 21,
+    "name": "PostgreSQL"
+  },
+  "react": {
+    "category": "tools",
+    "count": 20,
+    "name": "React"
+  },
+  "collaboration": {
+    "category": "soft_skills",
+    "count": 19,
+    "name": "Collaboration"
+  },
+  "research": {
+    "category": "soft_skills",
+    "count": 18,
+    "name": "Research"
+  },
+  "llm": {
+    "category": "technical_skills",
+    "count": 17,
+    "name": "LLM"
+  },
+  "deep learning": {
+    "category": "technical_skills",
+    "count": 17,
+    "name": "Deep Learning"
+  },
+  "high availability": {
+    "category": "technical_skills",
+    "count": 17,
+    "name": "High Availability"
+  },
+  "communication": {
+    "category": "soft_skills",
+    "count": 16,
+    "name": "Communication"
+  },
+  "go": {
+    "category": "technical_skills",
+    "count": 16,
+    "name": "Go"
+  },
+  "docker": {
+    "category": "tools",
+    "count": 16,
+    "name": "Docker"
+  },
+  "microservices": {
+    "category": "technical_skills",
+    "count": 15,
+    "name": "Microservices"
+  },
+  "etl": {
+    "category": "technical_skills",
+    "count": 15,
+    "name": "ETL"
+  },
+  "troubleshooting": {
+    "category": "soft_skills",
+    "count": 15,
+    "name": "Troubleshooting"
+  },
+  "node.js": {
+    "category": "tools",
+    "count": 14,
+    "name": "Node.js"
+  },
+  "javascript": {
+    "category": "technical_skills",
+    "count": 14,
+    "name": "JavaScript"
+  },
+  "mysql": {
+    "category": "tools",
+    "count": 14,
+    "name": "MySQL"
+  },
+  "github": {
+    "category": "tools",
+    "count": 13,
+    "name": "GitHub"
+  },
+  "terraform": {
+    "category": "tools",
+    "count": 12,
+    "name": "Terraform"
+  },
+  "jenkins": {
+    "category": "tools",
+    "count": 12,
+    "name": "Jenkins"
+  },
+  "linux": {
+    "category": "tools",
+    "count": 12,
+    "name": "Linux"
+  },
+  "github actions": {
+    "category": "tools",
+    "count": 11,
+    "name": "GitHub Actions"
+  },
+  "google cloud platform": {
+    "category": "tools",
+    "count": 10,
+    "name": "Google Cloud Platform"
+  },
+  "agile": {
+    "category": "technical_skills",
+    "count": 10,
+    "name": "Agile"
+  },
+  "database administration": {
+    "category": "technical_skills",
+    "count": 10,
+    "name": "Database Administration"
+  },
+  "computer vision": {
+    "category": "technical_skills",
+    "count": 9,
+    "name": "Computer Vision"
+  },
+  "spring boot": {
+    "category": "tools",
+    "count": 9,
+    "name": "Spring Boot"
+  },
+  "azure devops": {
+    "category": "tools",
+    "count": 9,
+    "name": "Azure DevOps"
+  },
+  "incident response": {
+    "category": "technical_skills",
+    "count": 9,
+    "name": "Incident Response"
+  },
+  "r": {
+    "category": "technical_skills",
+    "count": 8,
+    "name": "R"
+  },
+  "algorithms": {
+    "category": "technical_skills",
+    "count": 8,
+    "name": "Algorithms"
+  },
+  "lambda": {
+    "category": "tools",
+    "count": 8,
+    "name": "Lambda"
+  },
+  "data analysis": {
+    "category": "technical_skills",
+    "count": 8,
+    "name": "Data Analysis"
+  },
+  "langchain": {
+    "category": "tools",
+    "count": 7,
+    "name": "LangChain"
+  },
+  "fastapi": {
+    "category": "tools",
+    "count": 7,
+    "name": "FastAPI"
+  },
+  "mongodb": {
+    "category": "tools",
+    "count": 7,
+    "name": "MongoDB"
+  },
+  "ec2": {
+    "category": "tools",
+    "count": 7,
+    "name": "EC2"
+  },
+  "microsoft azure": {
+    "category": "tools",
+    "count": 7,
+    "name": "Microsoft Azure"
+  },
+  "data modeling": {
+    "category": "technical_skills",
+    "count": 7,
+    "name": "Data Modeling"
+  },
+  "pytorch": {
+    "category": "tools",
+    "count": 7,
+    "name": "PyTorch"
+  },
+  "tensorflow": {
+    "category": "tools",
+    "count": 7,
+    "name": "TensorFlow"
+  },
+  "unix": {
+    "category": "tools",
+    "count": 7,
+    "name": "Unix"
+  },
+  "distributed systems": {
+    "category": "technical_skills",
+    "count": 6,
+    "name": "Distributed Systems"
+  },
+  "kotlin": {
+    "category": "technical_skills",
+    "count": 6,
+    "name": "Kotlin"
+  },
+  "system design": {
+    "category": "technical_skills",
+    "count": 6,
+    "name": "System Design"
+  },
+  "data warehousing": {
+    "category": "technical_skills",
+    "count": 6,
+    "name": "Data Warehousing"
+  },
+  "nosql": {
+    "category": "technical_skills",
+    "count": 6,
+    "name": "NoSQL"
+  },
+  "graphql": {
+    "category": "technical_skills",
+    "count": 5,
+    "name": "GraphQL"
+  },
+  "microservices architecture": {
+    "category": "technical_skills",
+    "count": 5,
+    "name": "Microservices Architecture"
+  },
+  "mentoring": {
+    "category": "soft_skills",
+    "count": 5,
+    "name": "Mentoring"
+  },
+  "git": {
+    "category": "tools",
+    "count": 5,
+    "name": "Git"
+  },
+  "infrastructure as code": {
+    "category": "technical_skills",
+    "count": 5,
+    "name": "Infrastructure as Code"
+  },
+  "angular": {
+    "category": "tools",
+    "count": 5,
+    "name": "Angular"
+  },
+  "feature engineering": {
+    "category": "technical_skills",
+    "count": 5,
+    "name": "Feature Engineering"
+  },
+  "redux": {
+    "category": "tools",
+    "count": 5,
+    "name": "Redux"
+  },
+  "css": {
+    "category": "technical_skills",
+    "count": 5,
+    "name": "CSS"
+  },
+  "php": {
+    "category": "technical_skills",
+    "count": 4,
+    "name": "PHP"
+  },
+  "django": {
+    "category": "tools",
+    "count": 4,
+    "name": "Django"
+  },
+  "snowflake": {
+    "category": "tools",
+    "count": 4,
+    "name": "Snowflake"
+  },
+  "vault": {
+    "category": "tools",
+    "count": 4,
+    "name": "Vault"
+  },
+  "teamwork": {
+    "category": "soft_skills",
+    "count": 4,
+    "name": "Teamwork"
+  },
+  "analytical thinking": {
+    "category": "soft_skills",
+    "count": 4,
+    "name": "Analytical Thinking"
+  },
+  "bigquery": {
+    "category": "tools",
+    "count": 4,
+    "name": "BigQuery"
+  },
+  "numpy": {
+    "category": "tools",
+    "count": 4,
+    "name": "NumPy"
+  },
+  "pandas": {
+    "category": "tools",
+    "count": 4,
+    "name": "Pandas"
+  },
+  "apache": {
+    "category": "tools",
+    "count": 4,
+    "name": "Apache"
+  },
+  "mlflow": {
+    "category": "tools",
+    "count": 4,
+    "name": "MLflow"
+  },
+  "experimentation": {
+    "category": "soft_skills",
+    "count": 4,
+    "name": "Experimentation"
+  },
+  "scikit-learn": {
+    "category": "tools",
+    "count": 4,
+    "name": "Scikit-learn"
+  },
+  "replication": {
+    "category": "technical_skills",
+    "count": 4,
+    "name": "Replication"
+  },
+  "html": {
+    "category": "technical_skills",
+    "count": 4,
+    "name": "HTML"
+  },
+  "powershell": {
+    "category": "technical_skills",
+    "count": 3,
+    "name": "PowerShell"
+  },
+  "network security": {
+    "category": "technical_skills",
+    "count": 3,
+    "name": "Network Security"
+  },
+  "apache spark": {
+    "category": "tools",
+    "count": 3,
+    "name": "Apache Spark"
+  },
+  "database design": {
+    "category": "technical_skills",
+    "count": 3,
+    "name": "Database Design"
+  },
+  "grafana": {
+    "category": "tools",
+    "count": 3,
+    "name": "Grafana"
+  },
+  "prompt engineering": {
+    "category": "technical_skills",
+    "count": 2,
+    "name": "Prompt Engineering"
+  },
+  "initiative": {
+    "category": "soft_skills",
+    "count": 2,
+    "name": "Initiative"
+  },
+  "natural language processing": {
+    "category": "technical_skills",
+    "count": 2,
+    "name": "Natural Language Processing"
+  },
+  "creativity": {
+    "category": "soft_skills",
+    "count": 2,
+    "name": "Creativity"
+  },
+  "indexing": {
+    "category": "technical_skills",
+    "count": 2,
+    "name": "Indexing"
+  },
+  "query optimization": {
+    "category": "technical_skills",
+    "count": 2,
+    "name": "Query Optimization"
+  },
+  "grpc": {
+    "category": "technical_skills",
+    "count": 2,
+    "name": "gRPC"
+  },
+  "ruby": {
+    "category": "technical_skills",
+    "count": 2,
+    "name": "Ruby"
+  },
+  "ruby on rails": {
+    "category": "tools",
+    "count": 2,
+    "name": "Ruby on Rails"
+  },
+  "oauth": {
+    "category": "technical_skills",
+    "count": 2,
+    "name": "OAuth"
+  },
+  "api design": {
+    "category": "technical_skills",
+    "count": 2,
+    "name": "API Design"
+  },
+  "siem": {
+    "category": "technical_skills",
+    "count": 2,
+    "name": "SIEM"
+  },
+  "penetration testing": {
+    "category": "technical_skills",
+    "count": 2,
+    "name": "Penetration Testing"
+  },
+  "data visualization": {
+    "category": "technical_skills",
+    "count": 2,
+    "name": "Data Visualization"
+  },
+  "dbt": {
+    "category": "tools",
+    "count": 2,
+    "name": "dbt"
+  },
+  "statistical modeling": {
+    "category": "technical_skills",
+    "count": 2,
+    "name": "Statistical Modeling"
+  },
+  "data structures": {
+    "category": "technical_skills",
+    "count": 2,
+    "name": "Data Structures"
+  },
+  "redshift": {
+    "category": "tools",
+    "count": 2,
+    "name": "Redshift"
+  },
+  "critical thinking": {
+    "category": "soft_skills",
+    "count": 2,
+    "name": "Critical Thinking"
+  },
+  "scala": {
+    "category": "technical_skills",
+    "count": 2,
+    "name": "Scala"
+  },
+  "transformer": {
+    "category": "technical_skills",
+    "count": 2,
+    "name": "Transformer"
+  },
+  "verbal communication": {
+    "category": "soft_skills",
+    "count": 2,
+    "name": "Verbal Communication"
+  },
+  "flask": {
+    "category": "tools",
+    "count": 2,
+    "name": "Flask"
+  },
+  "growth mindset": {
+    "category": "soft_skills",
+    "count": 2,
+    "name": "Growth Mindset"
+  },
+  "argocd": {
+    "category": "tools",
+    "count": 2,
+    "name": "ArgoCD"
+  },
+  "prometheus": {
+    "category": "tools",
+    "count": 2,
+    "name": "Prometheus"
+  },
+  "bash": {
+    "category": "technical_skills",
+    "count": 2,
+    "name": "Bash"
+  },
+  "team leadership": {
+    "category": "soft_skills",
+    "count": 2,
+    "name": "Team Leadership"
+  },
+  "gitlab": {
+    "category": "tools",
+    "count": 2,
+    "name": "GitLab"
+  },
+  "next.js": {
+    "category": "tools",
+    "count": 2,
+    "name": "Next.js"
+  },
+  "dynamodb": {
+    "category": "tools",
+    "count": 2,
+    "name": "DynamoDB"
+  },
+  "agile mindset": {
+    "category": "soft_skills",
+    "count": 2,
+    "name": "Agile Mindset"
+  },
+  "caching": {
+    "category": "technical_skills",
+    "count": 2,
+    "name": "Caching"
+  },
+  "sagemaker": {
+    "category": "tools",
+    "count": 2,
+    "name": "SageMaker"
+  },
+  "kubeflow": {
+    "category": "tools",
+    "count": 2,
+    "name": "Kubeflow"
+  },
+  "presentation skills": {
+    "category": "soft_skills",
+    "count": 1,
+    "name": "Presentation Skills"
+  },
+  "continuous learning": {
+    "category": "soft_skills",
+    "count": 1,
+    "name": "Continuous Learning"
+  },
+  "accountability": {
+    "category": "soft_skills",
+    "count": 1,
+    "name": "Accountability"
+  },
+  "rest apis": {
+    "category": "technical_skills",
+    "count": 1,
+    "name": "REST APIs"
+  },
+  "new relic": {
+    "category": "tools",
+    "count": 1,
+    "name": "New Relic"
+  },
+  "rabbitmq": {
+    "category": "tools",
+    "count": 1,
+    "name": "RabbitMQ"
+  },
+  "cloudformation": {
+    "category": "tools",
+    "count": 1,
+    "name": "CloudFormation"
+  },
+  "stakeholder management": {
+    "category": "soft_skills",
+    "count": 1,
+    "name": "Stakeholder Management"
+  },
+  "statistical analysis": {
+    "category": "technical_skills",
+    "count": 1,
+    "name": "Statistical Analysis"
+  },
+  "project management": {
+    "category": "soft_skills",
+    "count": 1,
+    "name": "Project Management"
+  },
+  "postman": {
+    "category": "tools",
+    "count": 1,
+    "name": "Postman"
+  },
+  "apache airflow": {
+    "category": "tools",
+    "count": 1,
+    "name": "Apache Airflow"
+  },
+  "prioritization": {
+    "category": "soft_skills",
+    "count": 1,
+    "name": "Prioritization"
+  },
+  "data cleaning": {
+    "category": "technical_skills",
+    "count": 1,
+    "name": "Data Cleaning"
+  },
+  "seaborn": {
+    "category": "tools",
+    "count": 1,
+    "name": "Seaborn"
+  },
+  "matplotlib": {
+    "category": "tools",
+    "count": 1,
+    "name": "Matplotlib"
+  },
+  "exploratory data analysis": {
+    "category": "technical_skills",
+    "count": 1,
+    "name": "Exploratory Data Analysis"
+  },
+  "hugging face": {
+    "category": "tools",
+    "count": 1,
+    "name": "Hugging Face"
+  },
+  "anomaly detection": {
+    "category": "technical_skills",
+    "count": 1,
+    "name": "Anomaly Detection"
+  },
+  "load balancing": {
+    "category": "technical_skills",
+    "count": 1,
+    "name": "Load Balancing"
+  },
+  "shell scripting": {
+    "category": "technical_skills",
+    "count": 1,
+    "name": "Shell Scripting"
+  },
+  "ansible": {
+    "category": "tools",
+    "count": 1,
+    "name": "Ansible"
+  },
+  "helm": {
+    "category": "tools",
+    "count": 1,
+    "name": "Helm"
+  },
+  "confluence": {
+    "category": "tools",
+    "count": 1,
+    "name": "Confluence"
+  },
+  "jira": {
+    "category": "tools",
+    "count": 1,
+    "name": "JIRA"
+  },
+  "accessibility": {
+    "category": "technical_skills",
+    "count": 1,
+    "name": "Accessibility"
+  },
+  "vue.js": {
+    "category": "tools",
+    "count": 1,
+    "name": "Vue.js"
+  },
+  "seo": {
+    "category": "technical_skills",
+    "count": 1,
+    "name": "SEO"
+  },
+  "laravel": {
+    "category": "tools",
+    "count": 1,
+    "name": "Laravel"
+  },
+  "jwt": {
+    "category": "technical_skills",
+    "count": 1,
+    "name": "JWT"
+  },
+  "nestjs": {
+    "category": "tools",
+    "count": 1,
+    "name": "NestJS"
+  },
+  "express.js": {
+    "category": "tools",
+    "count": 1,
+    "name": "Express.js"
+  },
+  "data mining": {
+    "category": "technical_skills",
+    "count": 1,
+    "name": "Data Mining"
+  },
+  "problem solving": {
+    "category": "soft_skills",
+    "count": 1,
+    "name": "Problem Solving"
+  },
+  "gitlab ci": {
+    "category": "tools",
+    "count": 1,
+    "name": "GitLab CI"
+  },
+  "vertex ai": {
+    "category": "tools",
+    "count": 1,
+    "name": "Vertex AI"
+  },
+  "cryptography": {
+    "category": "technical_skills",
+    "count": 1,
+    "name": "Cryptography"
+  },
+  "threat modeling": {
+    "category": "technical_skills",
+    "count": 1,
+    "name": "Threat Modeling"
+  }
+}

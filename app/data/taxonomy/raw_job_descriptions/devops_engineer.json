@@ -1,0 +1,252 @@
+[
+  {
+    "title": "Senior DevOps Engineer (Kubernetes)",
+    "description": "Say hello to possibilities. It\u2019s not everyday that you consider starting a new career. We\u2019re RingCentral, and we\u2019re happy that someone as talented as you is considering this role. First, a little about us, we\u2019re the $2 billion global leader in cloud-based communications and collaboration software. We are fundamentally changing the nature of human interaction\u2014giving people the freedom to connect powerfully and personally from anywhere, at any time, on any device. This is where you and your skill\u2026",
+    "role": "DevOps Engineer"
+  },
+  {
+    "title": "DevOps Engineer(Openshift & RHEL Focus)",
+    "description": "We are looking for a highly skilled Senior DevOps Engineer with strong expertise in Red Hat OpenShift and RHEL environments to join our team at an on-prem client location in Mumbai. Key Skills: 3-5 years in Linux administration (RHEL focus) Strong hands-on experience with OpenShift (mandatory) & Kubernetes Expertise in automation (Ansible, Terraform, Shell scripting) Experience with CI/CD & GitOps (ArgoCD, Tekton) Knowledge of patching, vulnerability & lifecycle management Exposure to cloud pla\u2026",
+    "role": "DevOps Engineer"
+  },
+  {
+    "title": "DevOps Engineer - (Automation-CI/CD) [T500-25194]",
+    "description": "About Comply: Comply is a global leader in regulatory compliance software for financial services, offering a scalable SaaS platform backed by expert consulting. Serving thousands of firms worldwide, Comply empowers broker-dealers, investment banks, RIAs, and more to manage compliance effectively. At Comply India, engineers build impactful, client-focused solutions using AI and emerging technologies, with strong ownership and growth opportunities. Responsibilities: CI/CD Pipeline Development: De\u2026",
+    "role": "DevOps Engineer"
+  },
+  {
+    "title": "Azure DevOps Platform Engineer",
+    "description": "RESPONSIBILITIES Design, build, and maintain CI/CD pipelines to support application delivery Implement and manage Infrastructure as Code (IaC) on Azure Support multiple application environments (dev, test, UAT, pre\u2011prod) Support application deployments and release activities Collaborate with development teams to ensure smooth delivery pipelines Improve platform reliability, scalability, and standardization Implement platform security controls and compliance measures Embed security best practice\u2026",
+    "role": "DevOps Engineer"
+  },
+  {
+    "title": "Cloud DevOps Engineer CI/CD, Harness, Jenkins, Git, GCP, Terraform, Kubernetes",
+    "description": "TCS Hiring ! Cloud DevOps Engineer 9th MAY 4 to 8yrs Must have : -Cloud DevOps Engineer with strong expertise in Kubernetes (GKE), Google Cloud Platform (GCP), and containerization technologies such as Docker. Candidates with less experience and 4 years of experience need not apply Please read Job description before Applying NOTE: If the skills/profile matches and interested, please reply to this email by attaching your latest updated CV and with below few details: Name: Contact Number: Email I\u2026",
+    "role": "DevOps Engineer"
+  },
+  {
+    "title": "7 YoE - AKS / Kubernetes DevOps Engineer - Any UST Location - Immediate Joiner",
+    "description": "Candidates ready to join immediately can share their details via email for quick processing.  CCTC | ECTC | Notice Period | Location Preference nitin.patil@ust.com Act fast for immediate attention! \u23f3 Key Responsibilities Deploy, manage, and optimize containerized applications on Azure Kubernetes Service (AKS) Use Helm for packaging, deploying, and managing Kubernetes applications Implement and manage GitOps practices using ArgoCD Support deployment and lifecycle management of applications built\u2026",
+    "role": "DevOps Engineer"
+  },
+  {
+    "title": "DevOps/Site Reliability Engineer",
+    "description": "Techtinium Technologies is looking for a DevOps/Site Reliability Engineer who can ensure that a complex and growing cloud infrastructure is healthy, monitored, automated and is designed to scale. You will be working closely with various development teams right from the early stages of design all the way through identifying and resolving production issues. You\u2019ll work in a collaborative, thought-provoking and positive environment - one that values diversity of thoughts and creative solutions tha\u2026",
+    "role": "DevOps Engineer"
+  },
+  {
+    "title": "Azure DevOps Engineer (Terraform, Kubernetes, Azure Blob, Key Vault, VMs) \u2013 7 Years \u2013 Immediate Joiner \u2013 Any UST Location",
+    "description": "Candidates ready to join immediately can share their details via email for quick processing.  CCTC | ECTC | Notice Period | Location Preference nitin.patil@ust.com Act fast for immediate attention! \u23f3 Key Responsibilities Design and automate Azure infrastructure using Terraform Build and maintain CI/CD pipelines using Azure DevOps Deploy and manage applications on Kubernetes Manage Azure Blob Storage, VMs, and Key Vault Implement monitoring, security, and access controls Collaborate with develop\u2026",
+    "role": "DevOps Engineer"
+  },
+  {
+    "title": "DevOps Engineer \u2013 CI/CD (GitHub Actions, ADO, Kubernetes, Python, DevSecOps) | 9 Years | Any UST Location | Immediate Joiner",
+    "description": "Candidates ready to join immediately can share their details via email for quick processing.  CCTC | ECTC | Notice Period | Location Preference nitin.patil@ust.com Act fast for immediate attention! \u23f3 Must-Have Skills 9 years of experience in DevOps / CI/CD engineering Strong hands-on experience with GitHub Actions and Azure DevOps (ADO) pipelines Deep understanding of CI/CD pipeline design, implementation, and optimization Experience with Kubernetes (deployment, scaling, troubleshooting) Strong\u2026",
+    "role": "DevOps Engineer"
+  },
+  {
+    "title": "Platform Engineer (DevOps & Azure Cloud)",
+    "description": "Job Title: Platform Engineer Location: LHAP India Status: Full-Time Function: Technology Services Purpose LHAP / Lighthouse India is seeking an experienced Platform Engineer with around 6 years of hands-on experience in modern cloud and DevOps ecosystems. The ideal candidate should be technically strong in Azure Cloud, DevOps practices, CI/CD pipelines, Kubernetes orchestration, and Infrastructure as Code (Terraform) , with a strong focus on automation, scalability, reliability, and platform go\u2026",
+    "role": "DevOps Engineer"
+  },
+  {
+    "title": "Artificial Intelligence Engineer",
+    "description": "AI Security Engineer Remote/ 24x7 Support Job Purpose The mission of the CBTS Corporate Security Team is to protect our organization\u2019s people, assets, and information, while supporting continued innovation and the delivery of advanced technology products and services to our customers. This role will be responsible for designing, implementing, and operating the security controls that protect CBTS's AI systems and software delivery pipelines. This role sits at the intersection of security enginee\u2026",
+    "role": "DevOps Engineer"
+  },
+  {
+    "title": "Senior II Software Engineer: 4 yrs (DevOps / Platform Engineering / Infra / K8S / Prometheus / Grafana / ELK)",
+    "description": "Location: Mangalore - India Summary We are looking for a highly skilled Senior II \u2013 Software Engineer who can lead end-to-end infrastructure development, enforce platform engineering best practices, and contribute to system architecture and reliability engineering efforts. The ideal candidate should have strong expertise in DevOps, CI/CD, Kubernetes, observability, and infrastructure automation, while mentoring junior team members and optimizing cloud-native deployments. About the Job Our compa\u2026",
+    "role": "DevOps Engineer"
+  },
+  {
+    "title": "Lead Site Reliability Engineer",
+    "description": "Job Title: Lead Site Reliability Engineer Job Summary The Support Lead (SRE) is responsible for overseeing the support operations and site reliability engineering tasks, ensuring the effective functioning of systems and applications. The primary goal is to enhance system performance, availability, and resiliency. Years of Experience :- 5 to 7 7 years Location :- Bangalore, Noida Key Responsibilities 1. Manage a team of support engineers and sres to provide technical support and address system i\u2026",
+    "role": "DevOps Engineer"
+  },
+  {
+    "title": "DevSecOps Engineer - Network [T500-25670]",
+    "description": "About Comply: Comply is a global leader in regulatory compliance software for financial services, offering a scalable SaaS platform backed by expert consulting. Serving thousands of firms worldwide, Comply empowers broker-dealers, investment banks, RIAs, and more to manage compliance effectively. At Comply India, engineers build impactful, client-focused solutions using AI and emerging technologies, with strong ownership and growth opportunities. DevSecOps Engineer (Network): At COMPLY, we are \u2026",
+    "role": "DevOps Engineer"
+  },
+  {
+    "title": "Platform Engineer",
+    "description": "Bachelor\u2019s degree in Computer Science, Engineering, or equivalent practical experience. Minimum 5 years of experience in SRE/DevOps or Platform engineer roles Strong experience in Site Reliability Engineering (SRE), DevOps, or Cloud Engineering roles. Hands-on experience managing AWS cloud environments. Proven experience with CI/CD pipeline development and automation. Experience creating and managing pipelines using GitHub Actions and CloudBees CDRO. Proficiency in scripting and programming usi\u2026",
+    "role": "DevOps Engineer"
+  },
+  {
+    "title": "Senior Site Reliability Engineer",
+    "description": "LiveRamp powers exceptional experiences by making it safe and easy to connect the world's data, people, and applications. We are the industry pace-setter and one of the fastest growing SaaS businesses\u2014the enabling product behind many of the world's biggest brands and technology platforms. The Global SRE team is responsible for owning and supporting deployments of global products, and providing first line operational support. We are looking for a Senior Site Reliability Engineer who is excited a\u2026",
+    "role": "DevOps Engineer"
+  },
+  {
+    "title": "Delivery Lead",
+    "description": "Role Overview We are seeking a Delivery Lead to lead the end-to-end delivery of data platforms and web-based data solutions. This role blends hands-on data engineering expertise with strong delivery ownership and people leadership. The ideal candidate will manage a cross-functional team of 7\u20139 engineers (Data Engineers, DevOps Engineers, and Full-Stack Developers), work closely with onshore Solution Architects, and act as the primary bridge between business stakeholders and technical execution.\u2026",
+    "role": "DevOps Engineer"
+  },
+  {
+    "title": "DevOps Automation Engineer | 5 to 8 years | Cloud ERP solution for supply chain management | Bengaluru",
+    "description": "Preferred notice period of candidates: 1 month or less What you need: 5 years\u2019 experience as a Salesforce Developer or DevOps Engineer, with strong exposure to 1GP & 2GP package development. Hands-on expertise with Salesforce CLI (sfdx/sf) and Metadata API for automation and deployments. Solid experience in building CI/CD pipelines using tools such as GitHub Actions for Salesforce releases. Strong programming/scripting skills in Apex, Bash, Python, or Node.js for automation workflows. Experienc\u2026",
+    "role": "DevOps Engineer"
+  },
+  {
+    "title": "Azure Infrastructure Architect",
+    "description": "We are looking for a Azure Architect who has expereince in Azure Infrastructure , Application Management and Terraforms Experience : 9 - 14 yrs Shift : Rotational shifts inclusive of night shift and Rotational Week off Location: Chennai, Bangalore and Pune Work Mode: Work from office Responsibilities: Design and implement scalable and highly available cloud infrastructure solutions. Automate deployment processes using CI/CD pipelines to improve software delivery speed. Monitor system performanc\u2026",
+    "role": "DevOps Engineer"
+  },
+  {
+    "title": "Backend Developer \u2013 OCD Platform",
+    "description": "RESPONSIBILITIES Design, develop, and maintain backend services using Java and Spring Boot Implement scalable and maintainable backend components aligned with platform standards Contribute to ongoing platform evolution and enhancement initiatives Design and integrate MongoDB / NoSQL data models Build and maintain RESTful APIs consumed by CRM and digital platforms Ensure performance, reliability, and data consistency across services Contribute actively to code reviews and merge requests Follow d\u2026",
+    "role": "DevOps Engineer"
+  },
+  {
+    "title": "Vice President - Cloud Operations",
+    "description": "Position: VP, Cloud Operations The Opportunity Join FICO as Vice President of Cloud Operations, where you'll lead the transformation and scaling of our cloud infrastructure that powers the FICO Platform. This is a critical leadership role where you'll oversee cloud operations, including DevOps Engineering, Cloud Engineering, and infrastructure services that enable our platform to deliver mission-critical solutions to enterprises worldwide. As the senior leader for cloud operations, you'll refin\u2026",
+    "role": "DevOps Engineer"
+  },
+  {
+    "title": "DevOps Manager",
+    "description": "About Impact Analytics Impact Analytics\u2122 (Series D Funded) delivers AI-native SaaS solutions and consulting services that help companies maximize profitability and customer satisfaction through deeper data insights and predictive analytics. With a fully integrated, end-to-end platform for planning, forecasting, merchandising, pricing, and promotions, Impact Analytics empowers companies to make smarter decisions based on real-time insights rather than relying on last year\u2019s inputs to forecast an\u2026",
+    "role": "DevOps Engineer"
+  },
+  {
+    "title": "OCD Technical Leader \u2013 Azure & MongoDB",
+    "description": "RESPONSIBILITIES Own and drive the technical architecture of the OCD platform built on Azure and MongoDB Atlas Define, document, and enforce development standards and best practices Ensure architectural alignment across backend, data, and platform components Review and validate technical designs, code quality, and merge requests Promote high engineering standards through structured technical governance Ensure consistent implementation of CI/CD and development workflows Ensure compliance with no\u2026",
+    "role": "DevOps Engineer"
+  },
+  {
+    "title": "Senior AI/ML DevOps Platform & SDLC Automation Architect | 12 Yrs | Any UST Location | Immediate Joiner",
+    "description": "Candidates ready to join immediately can share their details via email for quick processing.  CCTC | ECTC | Notice Period | Location Preference nitin.patil@ust.com Act fast for immediate attention! \u23f3 Must-Have Skills: 12 years of overall experience in software engineering, architecture, DevOps, platform engineering, or enterprise automation Strong expertise in AI/ML architecture and AI automation Hands-on experience in designing agentic AI solutions and multi-step workflow automation Strong Pyt\u2026",
+    "role": "DevOps Engineer"
+  },
+  {
+    "title": "Developer",
+    "description": "Job Description: Backend Developer / Linux DevOps Engineer Job Overview: We are looking for a developer with strong Linux (Ubuntu) and DevOps expertise to manage and support an existing backend system. The role involves handling server-level operations, deployments, performance tuning, and troubleshooting, along with backend development in Node.js. Key Responsibilities: Manage and maintain Ubuntu/Linux servers (setup, configuration, security, updates) Deploy and manage backend services using No\u2026",
+    "role": "DevOps Engineer"
+  },
+  {
+    "title": "Engineering Manager - Data Engineering",
+    "description": "About Licious: Licious is India\u2019s leading D2C fresh meat and seafood brand, revolutionizing the way meat is sourced, processed, and delivered. We\u2019re a technology-first company obsessed with ensuring the highest standards in food quality, cold chain logistics, and customer delight.  Role Overview: We are looking for a seasoned Data Platform Engineering Manager to lead the development and operations of our modern, cloud-native data and infrastructure platform. You\u2019ll drive the architecture and ex\u2026",
+    "role": "DevOps Engineer"
+  },
+  {
+    "title": "Staff Software Engineer - SRE / DevOps [T500-25464]",
+    "description": "ANSR is hiring for one of its clients. About ANSR MedTech: Who We Are: ANSR MedTech Capability Center is a new global innovation hub being established in India for a Fortune 100 Fastest-Growing Company in the MedTech sector. Built in partnership with ANSR, the center draws on ANSR\u2019s proven experience in establishing and scaling high-performance Global Capability Centers (GCCs) for leading global enterprises. ANSR MedTech center brings together world-class engineering, product, and technology ta\u2026",
+    "role": "DevOps Engineer"
+  },
+  {
+    "title": "MLOps Manager",
+    "description": "Job Role: MLOps Manager Experience: 12\u201317 Years Location: Hyderabad, India Early Joiners Preferred About the Role We are looking for a MLOps Manager to lead the design, build, and scale of enterprise-grade MLOps and DevOps platforms. This role combines hands-on engineering excellence with team leadership , focusing on productionizing machine learning systems, enabling developer productivity, and driving automation at scale. You will work at the intersection of ML engineering, cloud infrastructu\u2026",
+    "role": "DevOps Engineer"
+  },
+  {
+    "title": "Site Reliability Engineer",
+    "description": "What You Will Do Design, build, and improve CI/CD pipelines for applications and infrastructure Develop automation frameworks that reduce manual effort and increase consistency. Configure and optimize cloud infrastructure to align with security, scalability, and performance best practices. Collaborate with development teams to remove deployment blockers and improve delivery workflows. Monitor reliability and performance, identify issues early, and implement data-driven improvements to increase \u2026",
+    "role": "DevOps Engineer"
+  },
+  {
+    "title": "SDET",
+    "description": "We are seeking a highly skilled and experienced SDET to join our dynamic team. As an SDET, you will play a key role in designing, implementing, and maintaining our automation testing framework. The primary focus of this role will be on utilizing Selenium, Pytest, Allure reporting, Python Requests, and Boto3 for automation testing and infrastructure management. Responsibilities: Develop and maintain automated test scripts using Selenium WebDriver and Pytest to ensure the quality of web applicati\u2026",
+    "role": "DevOps Engineer"
+  },
+  {
+    "title": "Technical Project Manager",
+    "description": "Job Title: Project Delivery Manager Location: Bangalore Experience: 8 years of experience delivering complex technology projects. Hands-on experience with tools such as Jira, Confluence, Azure DevOps, GitHub, Jenkins, Terraform, or Kubernetes. Position Overview: We are looking for an experienced Project Delivery Manager with strong technical depth and delivery leadership. This role requires a hybrid professional who can manage complex, multi-stakeholder technology programs while also engaging h\u2026",
+    "role": "DevOps Engineer"
+  },
+  {
+    "title": "DevOps SDE 3",
+    "description": "Our journey so far Jupiter was founded in 2019 by Jitendra Gupta. Best known as Citrus Pay\u2019s founder, Jiten found himself wondering why personal finance experiences were not customer-centric when everything else like food ordering and entertainment were. That\u2019s how our journey began in 2019, with a simple, powerful idea: to create a modern, customer-centric experience that empowers individuals when it comes to their money. From our humble beginnings, we've strived relentlessly to make managing \u2026",
+    "role": "DevOps Engineer"
+  },
+  {
+    "title": "Technical Project Manager",
+    "description": "The ideal candidate is a detail-oriented team player will handle all the resources and coordination from a technical standpoint. As a .NET Delivery Manager, you will oversee the full software development life cycle (SDLC) for high-value accounts. You will be the primary technical point of contact for US-based stakeholders, responsible for translating business requirements into robust .NET architectures while managing the speed and quality of the engineering squads. Responsibilities Own end-to-e\u2026",
+    "role": "DevOps Engineer"
+  },
+  {
+    "title": "Temenos Transact SRE",
+    "description": "Project Description: We are hiring Temenos T24/Transact professionals to support a global universal bank on a portfolio of enhancement and transformation initiatives. The engagement involves working on ongoing platform improvements, functional enhancements, and targeted transformation programs across the Temenos landscape. Team members will collaborate with distributed stakeholders, contribute to stable long-term programs, and work within a mature banking environment that values structured deli\u2026",
+    "role": "DevOps Engineer"
+  },
+  {
+    "title": "Support Engineer",
+    "description": "POSITION SUMMARY The candidate will be in the role of Senior Support Engineer, having a deep understanding of IT best practices and a constant thirst for new information. You will work in a fast-paced environment handling a team comprising of Support and DevOps engineers to provide support to our clients. In this role, you will work directly with the teams for implementing strategies to increase profitability and productivity. In this role you will play a vital role to provide up-front, timely,\u2026",
+    "role": "DevOps Engineer"
+  },
+  {
+    "title": "Senior Site Reliability Engineer",
+    "description": "Overview: We are looking for a Senior Site Reliability Engineer to join our Engineering Infrastructure team. In this role, you will own the reliability, performance, and operational excellence of Generac\u2019s cloud-native software platforms. You will bridge the gap between development and operations\u2014embedding SRE practices across engineering squads, driving automation, and ensuring our systems meet the highest availability and performance standards. You will report directly to the Sr. Manager, Sit\u2026",
+    "role": "DevOps Engineer"
+  },
+  {
+    "title": "Forward Deployed SRE",
+    "description": "As a forward deployed DevOps engineer at LocalOps, you will be the face of our cloud operations for enterprise customers. You'll work directly with customer engineering teams during EST business hours, managing their AWS infrastructure, resolving incidents, and driving operational excellence \u2014 all backed by our Internal Developer Platform and AI-powered incident response tooling. What you'll do Own cloud operations for enterprise customers on AWS Provide P0-P3 support during EST business hours \u2026",
+    "role": "DevOps Engineer"
+  },
+  {
+    "title": "Senior Technical Talent Partner",
+    "description": "At Hevo Data , we\u2019re building the future of data infrastructure for AI. Over 2,000 companies across 40 countries trust Hevo to power their analytics. As a deep tech company, our engineering team solves some of the hardest problems in data integration, scale, and reliability. We\u2019re looking for a Senior Technical Recruiter who goes beyond keyword matching. We want someone who can understand the technology, assess candidates based on their past technical projects/work, and match them to the role w\u2026",
+    "role": "DevOps Engineer"
+  },
+  {
+    "title": "Demand Generation Manager",
+    "description": "About StackGen StackGen is building the agentic OS for DevOps \u2014 a platform that enables autonomous operations across cloud infrastructure, site reliability, and observability. Our AI agents make cloud environments self-building, self-governing, self-healing, and self-optimizing. The platform spans three areas: AI SRE \u2014 A major focus for 2026, our autonomous SRE offering uses AI agents to detect, diagnose, and remediate production incidents, closing the gap between alert and resolution. One of t\u2026",
+    "role": "DevOps Engineer"
+  },
+  {
+    "title": "DevOps",
+    "description": "DevOps Greetings from TCS ! Walk in Drive planned on 9th May 2026 in TCS Trivandrum. TCS has been a great pioneer in feeding the fire of young Techies like you. We are a global leader in the technology arena and there\u2019s nothing that can stop us from growing together. Your role is of key importance, as it lays down the foundation for the entire project. Make sure you have a valid EP number before interview. To create an EP Number, please visit https://ibegin.tcs.com/iBegin/register Kindly comple\u2026",
+    "role": "DevOps Engineer"
+  },
+  {
+    "title": "Service Reliability Engineer",
+    "description": "Job Description: Service Reliability Engineer (Mid / Senior) Location: Kochi \u2013 Infopark (Work from Office) Experience: 3 Years Team: Engineering & Risk Operations Employment Type: Full\u2011time Role Summary We are looking for a Mid\u2011level / Senior Service Reliability Engineer (SRE) to ensure the availability, performance, and security of our fintech and payment platforms. This role uniquely combines Service Reliability Engineering with Fraud Detection and Risk Monitoring , offering the opportunity t\u2026",
+    "role": "DevOps Engineer"
+  },
+  {
+    "title": "Digital Marketing Director",
+    "description": "Role: Digital Marketing Director Experience: 10-15 Years Location: Hyderabad, India Reports To: Chief Growth Officer Role Overview: The Digital Marketing Director will own the end-to-end digital growth charter\u2014driving demand generation, brand acceleration, and revenue pipeline impact for AI, Cloud, DevOps, and Platform Engineering services . This role requires a hands-on, AI-first marketing leader who can build scalable, data-driven growth engines, leveraging modern marketing technologies and A\u2026",
+    "role": "DevOps Engineer"
+  },
+  {
+    "title": "DevOps Engineer",
+    "description": "Role : Devops Engineer Location : Bangalore/Hyd/Pune Experience : 5 yearsKey Responsibilities DevOps Engineer (GitOps / CI-CD / GitLab / JFrog Job Summary We are looking for an experienced DevOps Engineer with strong expertise in GitOps, CI/CD automation, GitLab administration, runner configuration, and JFrog platform management. The candidate will be responsible for designing, managing, and optimizing enterprise-grade CI/CD pipelines and GitOps workflows for Kubernetes-based platforms. This ro\u2026",
+    "role": "DevOps Engineer"
+  },
+  {
+    "title": "DevOps Engineer",
+    "description": "Job Summary: DevOps Engineer - Collaborate with development and operations teams to streamline software delivery processes - Design, implement, and maintain CI/CD pipelines - Manage and optimize cloud infrastructure (e.g., AWS, Azure, GCP) - Automate deployment and configuration tasks using relevant tools - Monitor system performance, troubleshoot issues, and ensure high availability - Apply best practices for security, scalability, and reliability - Work with tools such as Jenkins, Docker, Kub\u2026",
+    "role": "DevOps Engineer"
+  },
+  {
+    "title": "DevOps Engineer",
+    "description": "What is the role? As a DevOps Engineer at 8byte, you will own and drive infrastructure, deployment, and automation workflows across our cloud-native platform. You will work closely with engineering and product teams to build reliable, scalable, and secure systems that power our AI products for BFSI clients across India and the GCC. This is a hands-on, high-ownership role for someone who takes pride in clean infrastructure, fast deployments, and systems that don't wake you up at 3am. You will be\u2026",
+    "role": "DevOps Engineer"
+  },
+  {
+    "title": "DevOps Engineer",
+    "description": "Job Description Sia is looking for a DevOps Engineer to support the development of the Data Science Business Line in our new office in Mumbai. Your main responsibilities will include: Participation in our consulting assignments with our clients Development of our Software-as-a-Service products from Heka.ai Support to Data Scientists, Data Engineers and Software Engineers in projects with a strong Data component: Cloud services: architecture, storage & computing services, costs monitoring & opti\u2026",
+    "role": "DevOps Engineer"
+  },
+  {
+    "title": "DevOps Engineer",
+    "description": "CodelogicX is a forward-thinking tech company dedicated to pushing the boundaries of innovation and delivering cutting-edge solutions. We are seeking DevOps Engineer with 4 years of hands-on experience in building, managing, and optimizing scalable infrastructure and CI/CD pipelines. The ideal candidate will play a crucial role in automating deployment workflows, securing cloud environments and managing container orchestration platforms. You will leverage your expertise in AWS, Kubernetes, Argo\u2026",
+    "role": "DevOps Engineer"
+  },
+  {
+    "title": "DevOps Engineer",
+    "description": "This role is for one of the Weekday's clients Min Experience: 4 years Location: Chandigarh, Mohali, Punjab JobType: full-time We are looking for a DevOps Engineer with 4 years of experience to design, build, and operate scalable AWS infrastructure with strong ownership of CI/CD, containerized workloads, and infrastructure as code. The role requires deep hands-on expertise and a production-first mindset. Requirements Key Responsibilities: \u25cf Design, develop, and maintain reliable CI/CD pipelines \u2026",
+    "role": "DevOps Engineer"
+  },
+  {
+    "title": "DevOps Engineer",
+    "description": "We are looking for a motivated and detail-oriented DevOps Engineer with 1\u20133 years of experience working in the Microsoft technology stack. The ideal candidate will be responsible for implementing and maintaining CI/CD pipelines, managing Azure infrastructure, automating deployments, and ensuring system reliability and scalability. Key Responsibilities Design, implement, and manage CI/CD pipelines using Azure DevOps. Deploy and manage applications in Microsoft Azure cloud environments. Automate \u2026",
+    "role": "DevOps Engineer"
+  },
+  {
+    "title": "DevOps Engineer",
+    "description": "This role is for one of the Weekday's clients Salary range: Rs 800000 - Rs 1100000 (ie INR 8 - 11 LPA) Min Experience: 4 years Location: Chandigarh JobType: full-time We are seeking a skilled DevOps Engineer with 4\u20137 years of hands-on experience to join our growing engineering team. This role is ideal for someone who thrives at the intersection of development and operations, with a strong focus on automation, scalability, and reliability. You will play a key role in designing, implementing, and\u2026",
+    "role": "DevOps Engineer"
+  }
+]

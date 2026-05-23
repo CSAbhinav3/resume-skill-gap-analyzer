@@ -1,0 +1,302 @@
+{
+  "evaluation_timestamp": "2026-05-14T09:10:52.033217",
+  "total_evaluations": 3,
+  "successful": 3,
+  "failed": 0,
+  "avg_extraction_precision": 0.2889,
+  "avg_match_score": 0.3641,
+  "results": [
+    {
+      "filename": "test.pdf",
+      "target_role": "Data Scientist",
+      "status": "success",
+      "timestamp": "2026-05-14T09:10:24.487750",
+      "metrics": {
+        "ingestion_time_sec": 0.215,
+        "page_count": 2,
+        "clean_char_count": 3595,
+        "extraction_time_sec": 0.854,
+        "model_used": "llama-3.3-70b-versatile",
+        "gap_analysis_time_sec": 4.624,
+        "extraction_precision": 0.3667,
+        "overall_match_score": 0.3509,
+        "filtered_taxonomy_size": 57,
+        "roadmap_time_sec": 2.866,
+        "total_time_sec": 8.56
+      },
+      "extracted_skills": {
+        "technical_skills": [
+          "Machine Learning",
+          "Data Analysis",
+          "Feature Engineering",
+          "Model Evaluation",
+          "Predictive Models",
+          "Exploratory Data Analysis",
+          "Linear Regression",
+          "Random Forest",
+          "Time Series Analysis",
+          "Data Pipelines",
+          "Data Mining",
+          "LSTM",
+          "Scikit Learn",
+          "TensorFlow",
+          "NumPy",
+          "Pandas",
+          "Python",
+          "Java",
+          "SQL",
+          "FastAPI",
+          "REST APIs",
+          "System Integration",
+          "ETL"
+        ],
+        "tools": [
+          "Git",
+          "GitHub",
+          "Postman",
+          "Render",
+          "ThingSpeak",
+          "ESP32",
+          "MongoDB"
+        ],
+        "soft_skills": [],
+        "total_count": 30
+      },
+      "gap_analysis": {
+        "present_count": 20,
+        "missing_count": 15,
+        "top_5_gaps": [
+          {
+            "skill": "Data Modeling",
+            "category": "technical_skills",
+            "score": 0.6499,
+            "rank": 1
+          },
+          {
+            "skill": "Data Visualization",
+            "category": "technical_skills",
+            "score": 0.6396,
+            "rank": 2
+          },
+          {
+            "skill": "Oracle",
+            "category": "tools",
+            "score": 0.6213,
+            "rank": 3
+          },
+          {
+            "skill": "Statistical Modeling",
+            "category": "technical_skills",
+            "score": 0.6177,
+            "rank": 4
+          },
+          {
+            "skill": "Algorithms",
+            "category": "technical_skills",
+            "score": 0.5814,
+            "rank": 5
+          }
+        ]
+      },
+      "roadmap_summary": {
+        "phases": 3,
+        "total_weeks": 12,
+        "model_used": "llama-3.3-70b-versatile",
+        "week_1_focus": "Data Modeling"
+      },
+      "errors": []
+    },
+    {
+      "filename": "test.pdf",
+      "target_role": "ML Engineer",
+      "status": "success",
+      "timestamp": "2026-05-14T09:10:36.055409",
+      "metrics": {
+        "ingestion_time_sec": 0.266,
+        "page_count": 2,
+        "clean_char_count": 3595,
+        "extraction_time_sec": 0.412,
+        "model_used": "llama-3.3-70b-versatile",
+        "gap_analysis_time_sec": 0.085,
+        "extraction_precision": 0.2692,
+        "overall_match_score": 0.4615,
+        "filtered_taxonomy_size": 26,
+        "roadmap_time_sec": 3.27,
+        "total_time_sec": 4.033
+      },
+      "extracted_skills": {
+        "technical_skills": [
+          "Machine Learning",
+          "Data Analysis",
+          "Feature Engineering",
+          "Model Evaluation",
+          "Python",
+          "Java",
+          "SQL",
+          "FastAPI",
+          "REST APIs",
+          "System Integration",
+          "ETL",
+          "Time-Series Analysis",
+          "Linear Regression",
+          "Random Forest",
+          "LSTM",
+          "Scikit-learn",
+          "TensorFlow",
+          "Pandas",
+          "NumPy"
+        ],
+        "tools": [
+          "Git",
+          "GitHub",
+          "Postman",
+          "Render",
+          "ThingSpeak",
+          "ESP32",
+          "MongoDB"
+        ],
+        "soft_skills": [],
+        "total_count": 26
+      },
+      "gap_analysis": {
+        "present_count": 12,
+        "missing_count": 14,
+        "top_5_gaps": [
+          {
+            "skill": "Reinforcement Learning",
+            "category": "technical_skills",
+            "score": 0.6364,
+            "rank": 1
+          },
+          {
+            "skill": "Algorithms",
+            "category": "technical_skills",
+            "score": 0.5814,
+            "rank": 2
+          },
+          {
+            "skill": "SVM",
+            "category": "technical_skills",
+            "score": 0.5792,
+            "rank": 3
+          },
+          {
+            "skill": "Continuous Learning",
+            "category": "soft_skills",
+            "score": 0.579,
+            "rank": 4
+          },
+          {
+            "skill": "MLflow",
+            "category": "tools",
+            "score": 0.561,
+            "rank": 5
+          }
+        ]
+      },
+      "roadmap_summary": {
+        "phases": 3,
+        "total_weeks": 12,
+        "model_used": "llama-3.3-70b-versatile",
+        "week_1_focus": "Reinforcement Learning"
+      },
+      "errors": []
+    },
+    {
+      "filename": "test.pdf",
+      "target_role": "Backend Engineer",
+      "status": "success",
+      "timestamp": "2026-05-14T09:10:43.101879",
+      "metrics": {
+        "ingestion_time_sec": 0.256,
+        "page_count": 2,
+        "clean_char_count": 3595,
+        "extraction_time_sec": 0.426,
+        "model_used": "llama-3.3-70b-versatile",
+        "gap_analysis_time_sec": 0.078,
+        "extraction_precision": 0.2308,
+        "overall_match_score": 0.28,
+        "filtered_taxonomy_size": 25,
+        "roadmap_time_sec": 8.171,
+        "total_time_sec": 8.931
+      },
+      "extracted_skills": {
+        "technical_skills": [
+          "Machine Learning",
+          "Data Analysis",
+          "Feature Engineering",
+          "Model Evaluation",
+          "Python",
+          "Java",
+          "SQL",
+          "FastAPI",
+          "REST APIs",
+          "System Integration",
+          "ETL",
+          "Time-Series Analysis",
+          "Linear Regression",
+          "Random Forest",
+          "LSTM",
+          "Scikit-learn",
+          "TensorFlow",
+          "Pandas",
+          "NumPy"
+        ],
+        "tools": [
+          "Git",
+          "GitHub",
+          "Postman",
+          "Render",
+          "ThingSpeak",
+          "ESP32",
+          "MongoDB"
+        ],
+        "soft_skills": [],
+        "total_count": 26
+      },
+      "gap_analysis": {
+        "present_count": 7,
+        "missing_count": 15,
+        "top_5_gaps": [
+          {
+            "skill": "System Design",
+            "category": "technical_skills",
+            "score": 0.5602,
+            "rank": 1
+          },
+          {
+            "skill": "Object Oriented Programming",
+            "category": "technical_skills",
+            "score": 0.545,
+            "rank": 2
+          },
+          {
+            "skill": "Database Administration",
+            "category": "technical_skills",
+            "score": 0.5425,
+            "rank": 3
+          },
+          {
+            "skill": "Unix",
+            "category": "tools",
+            "score": 0.5144,
+            "rank": 4
+          },
+          {
+            "skill": "DevOps",
+            "category": "technical_skills",
+            "score": 0.4491,
+            "rank": 5
+          }
+        ]
+      },
+      "roadmap_summary": {
+        "phases": 3,
+        "total_weeks": 12,
+        "model_used": "llama-3.3-70b-versatile",
+        "week_1_focus": "System Design"
+      },
+      "errors": []
+    }
+  ]
+}

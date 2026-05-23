@@ -1,0 +1,252 @@
+[
+  {
+    "title": "Database Administrator",
+    "description": "Job Title: Database Administrator (Remote \u2013 India) Job Summary We are seeking a skilled and detail-oriented Database Administrator (DBA) to manage, maintain, and optimize our database systems. The ideal candidate will ensure data integrity, security, and high availability while supporting application performance and scalability. This role requires strong technical expertise, problem-solving abilities, and the capability to work effectively in a remote environment. Key Responsibilities Install, \u2026",
+    "role": "Database Administrator"
+  },
+  {
+    "title": "Database Administrator",
+    "description": "Role : Database Administrator Location : Navi Mumbai Role & responsibilities Ensure optimal health, integrity, performance, and security of all databases. Develop and maintain data categorization and security standards. Develop and maintain data movement, archiving and purging scripts. Evaluate and recommend new database technologies and management tools; optimize existing and future technology investments to maximize returns. Provide day-to-day support to internal IT support groups, external p\u2026",
+    "role": "Database Administrator"
+  },
+  {
+    "title": "Database Administrator",
+    "description": "Greetings from TCS TCS Bangalore hiring for IBM DB2 Administrator  Role: IBM DB2 Administrator Experience required: 8 to 12 years Location:- Bangalore Required technical Skillset:- IBM DB2 LUW- i.e Database administrator of DB2.Experience on installation of different versions of DB2 on Redhat Linux Environment Good knowledge of Linux Scheduling shell scripts on LINUX environments Good experience in generating DDL's using DB2LOOK command on existing database and its objects. Use RUNSTATS, REORGC\u2026",
+    "role": "Database Administrator"
+  },
+  {
+    "title": "Database Administrator",
+    "description": "Database Administartor - IBM Netezza Location - Kochi Experience - 8 to 13 years Notice period - Immediate to 45 days Must have 5-7 years of hands-on Database administrator experience on IBM Netezza (a.k.a IBM Pure Data for Analytics) Should be highly experienced in all aspects of DBA (Database maintenance, backups & system upkeeping) Must have 3-5 years of Redhat Openshift experience (as the database is running in AWS PaaS). Must have worked on AWS PaaS environment for minimum 2 years and shou\u2026",
+    "role": "Database Administrator"
+  },
+  {
+    "title": "Database Administrator",
+    "description": "The ideal candidate will be responsible for creating, installing and managing our databases. You will ensure optimal database performance by analyzing database issues and monitoring database performance. Responsibilities Manage database changes and re-designs Analyze database issues and troubleshoot or configure the database accordingly Drive automation of code Monitor database performance to ensure high levels of security and speed Qualifications Bachelor's Degree or equivalent experience in C\u2026",
+    "role": "Database Administrator"
+  },
+  {
+    "title": "Database Administrator",
+    "description": "Experience: 5 years Key Responsibilities \uf0b7 Ensure the implementation, administration, and ongoing maintenance of enterprise database systems. \uf0b7 Provide 24x7 production support, including participation in after-hours on-call rotations. \uf0b7 Monitor, analyze, and optimize database performance to ensure high availability, scalability, and resilience. \uf0b7 Manage database backup, recovery, monitoring, and performance tuning using standard enterprise tools, including Oracle OMS. \uf0b7 Design and implement rob\u2026",
+    "role": "Database Administrator"
+  },
+  {
+    "title": "Database Administrator",
+    "description": "AWS RDS Support Engineer/ Oracle and Mysql DBA Experience: 7 to 14 Years Location- Hyderabad, Bangalore, Chennai, Pune, Noida - Experience with AWS Services, RDS, Aurora, VPC, IAM - Experience with database PostgreSQL, MySQL and Oracle - Experience in AWS SCT/DMS Services - Experience in Maintaining documentation for operational processes, runbooks, and SOPs - Experience in Modifying RDS parameters (e.g., parameter groups, instance classes), manage users and access controls (IAM, DB-level permi\u2026",
+    "role": "Database Administrator"
+  },
+  {
+    "title": "Database Administrator",
+    "description": "Database Operations Engineer \u2013 L3 Kapitus is seeking highly skilled Database Operations (L3) to support and operate enterprise databases within the AWS RDS ecosystem. This role is responsible for hands- on database operations, automation, performance optimization, and CI/CD integration, working closely with engineering teams and reporting into the Manager, Database Operations. The ideal candidate is a strong individual contributor with deep technical expertise, capable of owning complex databas\u2026",
+    "role": "Database Administrator"
+  },
+  {
+    "title": "Database Administrator",
+    "description": "Experience Level \u2013 8 to 15 Years Job Requirements \u2013 Experience in database design for PostgreSQL, and Extensive Hands-on Query tuning, performance tuning , Understanding and using Explain of queries Hands on experience Table partitioning, DB clustering , DB load balancing Working experience on Production Environment and P1 issues Key Responsibilities Identify and tune queries using PgAdmin, pGBadger tools Analyze the queries, db schema and optimize for performance Bring in latest approaches for\u2026",
+    "role": "Database Administrator"
+  },
+  {
+    "title": "SQL Database Administrator",
+    "description": "Company Description SGSN Associates Pvt Ltd empowers businesses to thrive in the digital age through AI-Driven Digital Transformation. We specialize in creating innovative and scalable solutions, offering services such as automation, full-stack development, mobile app development, digital marketing, and UI/UX design. With a commitment to problem-solving, we partner with organizations to craft impactful customer experiences and streamline operations. Our team combines technical excellence with a\u2026",
+    "role": "Database Administrator"
+  },
+  {
+    "title": "Database Administrator (L2)",
+    "description": "Job Title: Database Administrator (L2) Percona Location : Hinjewadi, Pune. Mandaory Skils : Percona DBA. Shift time: 24*7 Rotational Job Summary : We are looking for a skilled Database Administrator (L2) with 6 to 7 years of hands-on experience in supporting and managing databases such as MySQL, MariaDB, PostgreSQL, MongoDB, and Oracle. The role involves database administration, performance optimization, backup and recovery management, and ensuring high availability across various environments \u2026",
+    "role": "Database Administrator"
+  },
+  {
+    "title": "Senior Database Administrator",
+    "description": "Senior Database Administrator NEOGOV, an HRIS Product company based in Los Angeles is the market and technology leader in human resources software for the public sector. We\u2019re looking for a Senior Database Administrator who excels at performance optimization and database tuning across multiple platforms, with a strong focus on Microsoft SQL Server. This position is ideal for a hands-on DBA who enjoys diagnosing inefficiencies, improving application performance, and guiding development teams in \u2026",
+    "role": "Database Administrator"
+  },
+  {
+    "title": "Oracle Database Administrator",
+    "description": "Job Title: Cloud Oracle DBA /Apps DBA (L2). Location: Hyderabad Experience: 5-7 years in the IT industry. Education: B. Tech computer science or equivalent degree. Job Description: We are seeking a highly skilled full-lifecycle administration of Oracle (12c/19c), MySQL, PostgreSQL on Linux/Unix servers and Amazon on EC2 Specialist with 4-6 years of experience in the IT industry The ideal candidate will have a strong background on Oracle database administration & PLSQL concepts and Hybrid Databa\u2026",
+    "role": "Database Administrator"
+  },
+  {
+    "title": "Oracle Database Administrator",
+    "description": "Job Title: Cloud Oracle DBA /Apps DBA (L2). Location: Hyderabad Experience: 5-7 years in the IT industry. Education: B. Tech computer science or equivalent degree. Job Description: We are seeking a highly skilled full-lifecycle administration of Oracle (12c/19c), MySQL, PostgreSQL on Linux/Unix servers and Amazon on EC2 Specialist with 4-6 years of experience in the IT industry The ideal candidate will have a strong background on Oracle database administration & PLSQL concepts and Hybrid Databa\u2026",
+    "role": "Database Administrator"
+  },
+  {
+    "title": "Oracle Database Administrator",
+    "description": "Job Title: Cloud Oracle DBA /Apps DBA (L2). Location: Hyderabad Experience: 5-7 years in the IT industry. Education: B. Tech computer science or equivalent degree. Job Description: We are seeking a highly skilled full-lifecycle administration of Oracle (12c/19c), MySQL, PostgreSQL on Linux/Unix servers and Amazon on EC2 Specialist with 4-6 years of experience in the IT industry The ideal candidate will have a strong background on Oracle database administration & PLSQL concepts and Hybrid Databa\u2026",
+    "role": "Database Administrator"
+  },
+  {
+    "title": "Oracle Database Administrator",
+    "description": "Job Title: Cloud Oracle DBA /Apps DBA (L2). Location: Hyderabad Experience: 5-7 years in the IT industry. Education: B. Tech computer science or equivalent degree. Job Description: We are seeking a highly skilled full-lifecycle administration of Oracle (12c/19c), MySQL, PostgreSQL on Linux/Unix servers and Amazon on EC2 Specialist with 4-6 years of experience in the IT industry The ideal candidate will have a strong background on Oracle database administration & PLSQL concepts and Hybrid Databa\u2026",
+    "role": "Database Administrator"
+  },
+  {
+    "title": "MYSQL Database Administrator",
+    "description": "Position: MYSQL Database Administrator Location: Bangalore, India (4 day/week WFO  1 Day/Week WFH) Duration: 12 Months Contract to Hire Job Description Looking for 6 Years experienced candidate in MYSQL DBA Role. Candidate should have strong experience to implement, administer, monitor, secure, backup and optimize/troubleshoot the MY SQL. Candidate should have experience in cluster environments in production and non-production environments for MY SQL Database (experience with other databases li\u2026",
+    "role": "Database Administrator"
+  },
+  {
+    "title": "Oracle Database Administrator",
+    "description": "Hi All, I am looking for an Oracle DBA with 10 years of experience. Location- Bangalore. Mode- Hybrid. Notice period- immediate to 30 days *ONLY*  Role Overview We are seeking a highly skilled Oracle Database Administrator (DBA) to join Datacenter and Cloud Operations team in Bengaluru. The role requires strong expertise in Oracle and SQL database administration, architecture, and cloud migration. The candidate will act as a Subject Matter Expert (SME) , managing large-scale datacenter operatio\u2026",
+    "role": "Database Administrator"
+  },
+  {
+    "title": "PostgreSQL Database Administrator",
+    "description": "About the Company We are seeking a highly skilled PostgreSQL Database Administrator (DBA) to ensure the stability, performance, availability, and security of our core database platforms. This is a hands-on, operations-focused role, with PostgreSQL administration as the primary responsibility. The ideal candidate will bring strong production experience with PostgreSQL, exposure to at least one other enterprise database platform such as SQL Server and/or Oracle, and hands-on experience with cloud\u2026",
+    "role": "Database Administrator"
+  },
+  {
+    "title": "Lead Database Administrator",
+    "description": "We are seeking an experienced Database Lead to design, optimize, and maintain enterprise-grade database systems. The role requires strong expertise in PostgreSQL, MongoDB , and cloud-based database environments (AWS/Azure) . Key Responsibilities: Lead and mentor a team of database administrators. Design, implement, and optimize SQL and NoSQL databases . Drive performance tuning , conduct code reviews , and implement system enhancements . Oversee database upgrades, migrations, and backup strateg\u2026",
+    "role": "Database Administrator"
+  },
+  {
+    "title": "Lead Database Administrator",
+    "description": "AWS RDS Support Engineer - 4C- Database Administrator Experience: 5 to 6 Years - Experience with AWS Services, RDS, Aurora, VPC, IAM - Experience with database PostgreSQL, MySQL and Oracle - Experience in Maintaining documentation for operational processes, runbooks, and SOPs - Experience in Troubleshooting - Experience in Infra Provisioning and configuring Security components, Key pair, security groups, ACL, IAM, Directory Service, Certificate manager - Experience provisioning and managing res\u2026",
+    "role": "Database Administrator"
+  },
+  {
+    "title": "Lead Database Administrator",
+    "description": "AWS RDS Support Engineer - 4C- Database Administrator Experience: 5 to 6 Years - Experience with AWS Services, RDS, Aurora, VPC, IAM - Experience with database PostgreSQL, MySQL and Oracle - Experience in Maintaining documentation for operational processes, runbooks, and SOPs - Experience in Troubleshooting - Experience in Infra Provisioning and configuring Security components, Key pair, security groups, ACL, IAM, Directory Service, Certificate manager - Experience provisioning and managing res\u2026",
+    "role": "Database Administrator"
+  },
+  {
+    "title": "Lead Database Administrator",
+    "description": "AWS RDS Support Engineer - 4C- Database Administrator Experience: 5 to 6 Years - Experience with AWS Services, RDS, Aurora, VPC, IAM - Experience with database PostgreSQL, MySQL and Oracle - Experience in Maintaining documentation for operational processes, runbooks, and SOPs - Experience in Troubleshooting - Experience in Infra Provisioning and configuring Security components, Key pair, security groups, ACL, IAM, Directory Service, Certificate manager - Experience provisioning and managing res\u2026",
+    "role": "Database Administrator"
+  },
+  {
+    "title": "Netezza Database Administrator",
+    "description": "Blutic is looking for a Netezza Database Administrator with minimum 5 years experience. Working as a DBA having strong skills in database design, maintenance, configuration and administration, and should have supported large development teams. The candidate should be proficient in Linux/Unix when working with the Netezza host, and be able to perform standard DBA activities. This position will require on-call and weekend support on rotation basis for planned and unplanned activities. The candida\u2026",
+    "role": "Database Administrator"
+  },
+  {
+    "title": "Database Administrator with AWS",
+    "description": "Work hours are 12.00 pm-9.30 pm IST Hybrid role: work from office is required 2-3 days per week Project Description: Luxoft DXC Technology Company is an established company focusing on consulting and implementation of complex projects in the financial industry. At the interface been technology and business, we convince with our know-how, well-founded methodology and pleasure in success. As a reliable partner to our renowned customers, we support them in planning, designing and implementing the \u2026",
+    "role": "Database Administrator"
+  },
+  {
+    "title": "Oracle Database Administrator",
+    "description": "Blutic is looking for a Oracle Database Administrator with a minimum 7 years' experience with database design, implementation, and maintenance. The candidate should provide technical support to application development teams and assist with impact analysis of changes due to development, testing, and production usage. This position will require on-call and weekend support on rotation basis for planned and unplanned activities. The candidate should have supported 24x7 systems in a High-Availabilit\u2026",
+    "role": "Database Administrator"
+  },
+  {
+    "title": "Database Administrator with AWS",
+    "description": "Work hours are 12.00 pm-9.30 pm IST Hybrid role: work from office is required 2-3 days per week Project Description: Luxoft DXC Technology Company is an established company focusing on consulting and implementation of complex projects in the financial industry. At the interface been technology and business, we convince with our know-how, well-founded methodology and pleasure in success. As a reliable partner to our renowned customers, we support them in planning, designing and implementing the \u2026",
+    "role": "Database Administrator"
+  },
+  {
+    "title": "Database Administrator with AWS",
+    "description": "Work hours are 12.00 pm-9.30 pm IST Hybrid role: work from office is required 2-3 days per week Project Description: Luxoft DXC Technology Company is an established company focusing on consulting and implementation of complex projects in the financial industry. At the interface been technology and business, we convince with our know-how, well-founded methodology and pleasure in success. As a reliable partner to our renowned customers, we support them in planning, designing and implementing the \u2026",
+    "role": "Database Administrator"
+  },
+  {
+    "title": "Database Administrator PostgreSQL",
+    "description": "Join a Montreal-based SaaS company that helps organizations around the world create a personalized journey of impact and fulfillment for their people. Explorance offers innovative Experience Management solutions because we believe that each experience matters. Will we be your next one? To be an Explorer means to join one the 1 ranked workplace in Canada, awarded by Great Place to Work\u00ae. Join a team that values trust, drive, collaboration, excellence, and a growth mindset. Live an experience tha\u2026",
+    "role": "Database Administrator"
+  },
+  {
+    "title": "Oracle Database Administrator",
+    "description": "Role Overview We are seeking an experienced Oracle DBA responsible for managing, optimizing, and securing enterprise Oracle environments across on-prem and cloud platforms. The role includes administration of high-availability systems using RAC, performance tuning on Exadata, real-time data replication using GoldenGate, and cloud operations in OCI. Key Responsibilities Database Administration Install, configure, upgrade, and patch Oracle databases (12c, 19c, 21c or later) Manage CDB/PDB archite\u2026",
+    "role": "Database Administrator"
+  },
+  {
+    "title": "Oracle Database Administrator",
+    "description": "Job Description \u2013 Oracle DBA Position Overview DBA will be responsible for administering, maintaining, optimizing, and securing enterprise-class Oracle database environments across production, staging, and test systems. This role requires deep hands-on technical expertise with Oracle database technologies, strong troubleshooting skills, and the ability to support large, complex, and mission-critical environments. The ideal candidate is a proactive self-starter who demonstrates strong ownership,\u2026",
+    "role": "Database Administrator"
+  },
+  {
+    "title": "SQL Database Administrator",
+    "description": "TCS hiring Role: SQL DBA Location: Bangalore Experience: 8-10 Must Have: Installation, configuration and troubleshooting of current and previous MS SQL server versions dating back to 2016 SQL server maintenance tasks SQL server high availability / disaster recovery solutions especially SQL Cluster and Always On SQL server backup strategies and recovery of instances and databases Performance tuning/optimization of SQL server Data encryption Good knowledge of SQL server monitoring concepts Data p\u2026",
+    "role": "Database Administrator"
+  },
+  {
+    "title": "SQL Database Administrator",
+    "description": "L2/L3 SQL DBA: Install, configure, maintain, and upgrade SQL Server instances in production and development environments. Design and implement high availability and disaster recovery solutions using Always On Availability Groups, Log Shipping, and Clustering. Monitor, diagnose, and resolve database performance issues using DMVs, Query Store, and third-party monitoring tools. SQL Profiler Extended Events DMVs Automate tasks using: PowerShell T-SQL scripting Azure Automation Runbooks Implement mo\u2026",
+    "role": "Database Administrator"
+  },
+  {
+    "title": "SQL Database Administrator",
+    "description": "We\u2019re looking for an experienced SQL DBA to join our team and take ownership of mission-critical database environments built on Microsoft SQL Server (2017/2019). What You\u2019ll Do for \u20b915 LPA: Install, configure, patch, and maintain SQL Server environments Lead migration & upgrade initiatives Design and manage High Availability & Disaster Recovery (HA/DR) solutions (AG, FCI, Replication, Log Shipping, etc.) Monitor performance, troubleshoot issues, and optimize databases Ensure backup integrity an\u2026",
+    "role": "Database Administrator"
+  },
+  {
+    "title": "MySQL Database Administrator",
+    "description": "Company Overview Kumaran Systems is a global technology solutions provider delivering innovative IT services and digital transformation solutions to clients worldwide. We foster a collaborative, growth-driven culture and provide opportunities to work on global projects that support both professional and personal development. Role Overview We are seeking a skilled MySQL Application Database Engineer with 4 to 6 years of experience in database development, performance tuning, and application supp\u2026",
+    "role": "Database Administrator"
+  },
+  {
+    "title": "Senior Database Administrator",
+    "description": "We are hiring for: Role: DB SME (MySQL database, Oracle Enterprise database and DB2, Proficient in High Availability solutions) Experience: 8 years Location: Chennai Key Responsibilities: 1. Excellent working experience in MySQL database 2. Proficient in High Availability solutions (Always-on, Clustering, Log-shipping and Mirroring) 3. Expert in Backup and restores and recovery models 4. SQL server Certified 5. Disaster Recovery for the customer 6. Excellent working experience in Oracle Enterpr\u2026",
+    "role": "Database Administrator"
+  },
+  {
+    "title": "SQL Database Administrator",
+    "description": "Role: SQL DBA Location: Nagpur Exp: 4-12 yrs Mode of interview : walk in drive on (25-Apr-26) in person (F2F) Must Have Skills: Experience on SQL Server 2014/16/19 installation and upgrade activities. Database backup and restore skills, Point in Recovery Experience in Database version upgrade Database maintenance (Index re-build, table re-org), Database re-org activities create and schedule SQL Agent Jobs for maintenance and automation Good-to-Have: RAC experience Production Support Golden Gate\u2026",
+    "role": "Database Administrator"
+  },
+  {
+    "title": "SQL Database Administrator",
+    "description": "Duties & Responsibilities: \u2022 Install, configure, and deploy MSSQL Server instances \u2022 Manage database security including user accounts, roles, and permissions \u2022 Monitor database performance and identify bottlenecks \u2022 Troubleshoot and resolve database-related issues \u2022 Perform backup and restore operations \u2022 Automate tasks using T-SQL and PowerShell scripting \u2022 Configure and manage HA/DR solutions (Log Shipping, Mirroring, Always On AG, Clustering) \u2022 Document database activities, configurations, a\u2026",
+    "role": "Database Administrator"
+  },
+  {
+    "title": "Oracle Database Administrator",
+    "description": "Role: Oracle DBA Location: Kolkata, Pune, Bangalore Exp: 5-7 yrs Mode of interview : Virtual Must Have Skills: 1. Experience in Database Production Support 2. Exposure to various Oracle DBA versions, primarily Oracle 19c 3. Exposure to MS SQL server administration 4. Good knowledge on Performance Tuning 5. Experience in RAC technology/application Good to have: 1. RAC experience 2. Production Support 3. Golden Gate 4. Oracle 19c 5. MS SQL server",
+    "role": "Database Administrator"
+  },
+  {
+    "title": "Oracle Database Administrator",
+    "description": "We are hiring for Oracle Lead Database Engineer . Role: Oracle Lead Database Engineer Experience: 7 years to 10 years Walk in Interview Location: TCSLucerna Tower Plot A2B, Sector 125, Noida, Uttar Pradesh 201313 Note-Walk In Interview on 9th May 2026 Interested candidates can send their resume on below mail ID along with below details- geethanjali.u@tcs.com Please share below details- Full Name: Email: Contact Details: Total Experience: Current location: Preferred location: Relevant Experience\u2026",
+    "role": "Database Administrator"
+  },
+  {
+    "title": "Database Administrator (DBA) \u2013 MySQL",
+    "description": "Job Title: Database Administrator (DBA) \u2013 MySQL Department: IT / Database Administration Experience: 10 Years Qualification: B.E. / B.Tech or Post-Graduation in IT / Computer Science or equivalent Job Summary: We are seeking an experienced MySQL Database Administrator (DBA) to manage, maintain, and optimize database systems. The ideal candidate should have strong expertise in database architecture, performance tuning, and handling large-scale database environments across multiple projects. Key \u2026",
+    "role": "Database Administrator"
+  },
+  {
+    "title": "Senior Oracle Database Administrator",
+    "description": "Senior Oracle Database Administrator (DBA) Location: Noida / Gurgaon (3 days' work from office) Please note: Candidates should be available to join immediately or within 15\u201330 days. Only candidates based in Delhi NCR and nearby locations will be preferred. This opportunity is particularly well-suited for professionals who are immediately available, nearing completion of their current contract, or in a position to obtain an early release from their current organization. Role Overview We are seek\u2026",
+    "role": "Database Administrator"
+  },
+  {
+    "title": "SQL Server Database Administrator",
+    "description": "Role Overview We are seeking a skilled SQL Server DBA responsible for managing, optimizing, and maintaining enterprise SQL Server environments. This role focuses on ensuring high availability, performance tuning, data replication, and analytical services support. Key Responsibilities Database Administration Install, configure, upgrade, and patch Microsoft SQL Server Manage databases across development, test, and production environments Perform backup and recovery operations Monitor database per\u2026",
+    "role": "Database Administrator"
+  },
+  {
+    "title": "Senior Oracle Database Administrator",
+    "description": "Senior Oracle DBA \u2013 L3 Support Location: Madurai, Tamil Nadu (India) Experience: 9 Years We are looking for an experienced Oracle DBA (L3 Support) to join our enterprise database operations team. This role is critical to ensuring high availability, performance, and stability of mission\u2011critical applications, while leading incident management and proactive database improvements. Key Skills & Expertise 9 years of experience in Oracle DBA roles Minimum 3 years in L3 Production Support Strong hands\u2026",
+    "role": "Database Administrator"
+  },
+  {
+    "title": "Oracle Database Administrator  AVDF",
+    "description": "Role- Oracle DBA AVDF Exp - 5 to 10 Yrs Notice Period - 0 to 60 Days Location- PAN INDIA Job Description- Mandatory Skill:- Apps DBA  Cross Platform Migration  OCI experience  IDCS Apps DBA with AVDF We are seeking an experienced Oracle AVDF DBA to support the endtoend implementation of Oracle Audit Vault and Database Firewall AVDF from scratch for client environments Key Responsibilities Lead and support the implementation of Oracle AVDF including design installation configuration and deployme\u2026",
+    "role": "Database Administrator"
+  },
+  {
+    "title": "Data Engineer/Database Administrator (DBA)",
+    "description": "We are seeking a skilled Database Administrator (DBA) professional with strong expertise in database management, data security, and governance, along with experience in enterprise data integration. The ideal candidate will be responsible for ensuring the performance, availability, security, and compliance of database systems, while also supporting data engineering initiatives such as data integration and pipeline development. This role plays a critical part in safeguarding enterprise data, enfo\u2026",
+    "role": "Database Administrator"
+  },
+  {
+    "title": "Database Administrator_5 to 15 years_Delhi",
+    "description": "TCS IS HIRING FOR MONGO DBA _ WALKIN DRIVE_18-Apr-26 (DELHI LOCATION) EXP RANGE- 5 TO 15 YEARS LOCATION-DELHI Experience with working on Linux operating Systems. Hands-on experience on setting up MongoDB replicasets and sharded clusters Need to work on MongoDB upgrades and refreshes. Need to work on MongoDB backup configuration using OpsMgr Hands-On experience with MongoDB OpsMgr. Experience working with X.509 authentication mechanism Exposure to performance issues troubleshooting. Experience w\u2026",
+    "role": "Database Administrator"
+  },
+  {
+    "title": "Walk In Drive_Oracle Database Administrator_ NOIDA",
+    "description": "Greetings from TCS We are Organizing a walk-in Drive at Noida Location on 09-MAY-2026. Please find details below: Role: Oracle DBA Admin Experience required: 5 to 12 years Location:- Noida Venue : Plot A2B, Sector 125, Noida, Uttar Pradesh 201313 Required technical Skillset:- Optimize, and automate our Oracle database services using a combination of technologies and standard engineering practices. Collaborate with cross-functional teams to identify and implement opportunities for technology imp\u2026",
+    "role": "Database Administrator"
+  },
+  {
+    "title": "MYSQL DBA",
+    "description": "Greetings from TCS, TCS Bangalore providing excellent opportunity for MYSQL DBA Job Title :- MYSQL DBA Job Location: Bangalore Experience Range: 6 to 9 Years Required Technical Skillset:- Creating and scheduling Jobs in MySQL, ETL, deploy SQL patches, Perform Data Migration Activity. Plan and execute data migrations between different databases Database partitioning replication, migration. Diagnose and resolve database access and security issues. MySQL Database Administration, MYSQL HADR Setup,L\u2026",
+    "role": "Database Administrator"
+  },
+  {
+    "title": "Database Engineer",
+    "description": "Job Title: Database Engineer Function: Cloud & Cybersecurity Location: Noida Purpose of Job: The DB engineer would be responsible for the design, implementation, maintenance, and optimization of database systems hosted on AWS and Azure cloud platforms. This role ensures the security, availability, performance, and scalability of databases that support Newgen product and analytics hosted on CCS (Cloud and Cyber Security group). The DB engineer (DBA) works closely with infrastructure, delivery an\u2026",
+    "role": "Database Administrator"
+  }
+]

@@ -80,6 +80,16 @@ async def main():
     # Step 2: Load taxonomy
     print("2. Loading taxonomy JSON...")
     taxonomy = load_taxonomy()
+    print(taxonomy.keys())
+
+    print(len(taxonomy["technical_skills"]))
+    print(len(taxonomy["tools"]))
+    print(len(taxonomy["soft_skills"]))
+
+    print("Power BI" in taxonomy["tools"])
+    print("Excel" in taxonomy["tools"])
+    print("Tableau" in taxonomy["tools"])
+    
     total_skills = sum(len(v) for v in taxonomy.values())
     print(f"   Loaded {total_skills} skills across {len(taxonomy)} categories.\n")
 

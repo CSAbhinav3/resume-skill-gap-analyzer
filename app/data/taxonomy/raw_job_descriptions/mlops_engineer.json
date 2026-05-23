@@ -1,0 +1,252 @@
+[
+  {
+    "title": "MLOps Engineer",
+    "description": "We are looking for an MLOps Engineer with strong experience in deploying, scaling, and monitoring machine learning models in production environments. This role focuses on building reliable ML pipelines, optimizing model inference performance, and ensuring end-to-end lifecycle management of ML systems. What you\u2019ll be Responsible for? Build, deploy, and scale ML models using Docker and Kubernetes (EKS/AKS). Develop and manage CI/CD pipelines using GitHub Actions / Jenkins. Design and maintain low\u2026",
+    "role": "MLOps Engineer"
+  },
+  {
+    "title": "MLOps Engineer",
+    "description": "This role is for one of Zepcruit's clients. Role & Responsibilities: We are looking for a Senior MLOps Engineer with 8 years of experience building and managing production-grade ML platforms and pipelines. The ideal candidate will have strong expertise across AWS, Airflow/MWAA, Apache Spark, Kubernetes (EKS), and automation of ML lifecycle workflows. You will work closely with data science, data engineering, and platform teams to operationalize and scale ML models in production. Key Responsibil\u2026",
+    "role": "MLOps Engineer"
+  },
+  {
+    "title": "MLOps Engineer \u2013 Databricks on AWS",
+    "description": "Role: MLOps Engineer Team: Data & Analytics Platform: Databricks on AWS Experience: 6 Years Role Summary The Client is looking for an experienced MLOps Engineer to join the Data Team and lead Machine Learning initiatives on Databricks (AWS) . The role involves working closely with business stakeholders, data engineers, and analytics teams to design, deploy, and operationalize scalable ML solutions. The candidate will be responsible for building end-to-end ML pipelines, automating model deployme\u2026",
+    "role": "MLOps Engineer"
+  },
+  {
+    "title": "Senior MLOps Engineer (Azure)",
+    "description": "Role : Senior MLOps Engineer (Azure) Location: Bengaluru(Mahadevapura) Work Mode: 5 Days Work from office Joining: Immediate / Short Notice Preferred Job Summary: We are hiring a Senior Machine Learning Engineer to design, develop, and deploy scalable ML solutions on Azure. The role involves working with supply chain and financial data, building production-ready models, and implementing MLOps pipelines. Key Responsibilities: Build, train, and deploy ML models at scale Develop end-to-end ML pipe\u2026",
+    "role": "MLOps Engineer"
+  },
+  {
+    "title": "AI runtime and MLOps Engineer",
+    "description": "JD -ML Platform (AI Runtime & MLOps Stack) Team: AI Platform Engineering About the AI Platform We are building a next-generation AI platform to power intelligent, AI-driven experiences across our global marketplace. Our platform supports the full lifecycle of large-scale foundation models\u2014from distributed pretraining on high-performance GPU clusters to high-throughput production inference\u2014enabling commerce intelligence for hundreds of millions of users worldwide. We focus on building state-of-t\u2026",
+    "role": "MLOps Engineer"
+  },
+  {
+    "title": "Technology Lead \u2013 MLOps Engineer (Machine Learning)",
+    "description": "Infosys is looking for a Technology Lead \u2013 MLOps Engineer to lead the design, deployment, and operationalization of enterprise\u2011scale machine learning solutions on Microsoft Azure . This role blends hands\u2011on MLOps engineering , technical leadership , and client consulting , working closely with Data Scientists, business stakeholders, and cloud teams\u2014particularly within Retail, CPG, and Supply Chain domains . Responsibilities Lead MLOps implementation and support for production ML systems Design \u2026",
+    "role": "MLOps Engineer"
+  },
+  {
+    "title": "Senior MLOps Engineer (GCP / CV / Perception Pipelines)",
+    "description": "Location: Remote (CET working hours) Who we are At Jaipur Robotics, we build AI systems that turn visual and sensor data into automation, efficiency, and operational intelligence for the waste industry. We are a fast-growing, VC-backed clean-tech startup based in Switzerland, working with leading operators across Europe and expanding our engineering team to develop industrial perception and automation systems. What we offer We\u2019re hiring a Senior MLOps Engineer (GCP / Computer Vision & ML Pipeli\u2026",
+    "role": "MLOps Engineer"
+  },
+  {
+    "title": "MLOps Engineer | 5 to 10 years | AI-driven analytics and decision sciences company | Bengaluru | Immediate joiners",
+    "description": "Note: Looking for immediate joiners / candidates with notice period up to 15 days. What you need: Mandatory skills: Pyspark, MLFlow, MLOps, Model Lifecycle Management Orchestration (CI/CD). Strong experience in end-to-end MLOps lifecycle (deployment, monitoring, retraining). Hands-on with PySpark, Databricks, and large-scale data processing. Experience with CI/CD pipelines and ML deployment frameworks. Exposure to Docker and Kubernetes for containerized deployments. Familiarity with MLflow / mo\u2026",
+    "role": "MLOps Engineer"
+  },
+  {
+    "title": "Machine Learning Engineer (MLOps) - PAN INDIA",
+    "description": "Greetings from Tata Consultancy Services TCS is Hiring for the role of Machine Learning Engineer Years of experience : 5 to 12 yrs Location : Chennai, Bangalore, Hyderabad, Mumbai, Gurugram (or) PAN India Notice Period: 0 to 30/45 days (or) Immediate Joiners are also preferred Required Skill Set: Machine Learning, MLOps, CI/CD, Python, SQL Ex-TCSers are not allowed and experience range less than 5yrs will not be considered Job description: Must have: Minimum 6 years of experience in ML Engineer\u2026",
+    "role": "MLOps Engineer"
+  },
+  {
+    "title": "TCS is Hiring for Multiple Roles",
+    "description": "TCS is Hiring! Virtual Interview for Multiple Roles: Informatica CDI (Cloud Data Integration) - 4 years IBM InfoSphere DataStage - 6 to 8 years Business Analysis - 3 years BigData and Hadoop Ecosystems - 3 years Data Engineer - 5 years DBA with Data Migration - 5 years Pyspark - 6 to 9 years DevOPS - 5 to 8 years Reltio MDM Senior Developer - 10 years Data Analyst / Data Mining - 6 to 8 years SAS Viya Admin - 8 years ML Engineer / MLOps Engineer - 6yrs Business Analyst - Data and MDM - 8 years\u2026",
+    "role": "MLOps Engineer"
+  },
+  {
+    "title": "Senior ML Engineer(Databricks MLOps)",
+    "description": "Role: Senior ML Engineer(Databricks MLOps) Location: Hyderabad Experince: 8 Yrs Job Description Summary ML Engineer within the Data Science and Machine Learning team leverages and third-party software to create solutions to business problems defined by specific business requirements. In this position, you will draw upon technical, AI/ML engineering, Data and MLOps experience to solve complex marketing analytics problems on very large volumes of data. As a Machine Learning (ML) Engineer You will\u2026",
+    "role": "MLOps Engineer"
+  },
+  {
+    "title": "Machine Learning Engineer",
+    "description": "We are looking for a highly skilled MLOps Engineer to design, build, and manage end\u2011to\u2011end machine learning pipelines and production\u2011grade ML infrastructure. This role focuses on scalable ML deployment, monitoring, automation, and lifecycle management, while bridging the gap between Data Science, Engineering, and DevOps teams. If you have strong expertise in ML model deployment, CI/CD for ML, cloud platforms, and Kubernetes, this is an excellent opportunity to work on enterprise\u2011scale AI/ML sys\u2026",
+    "role": "MLOps Engineer"
+  },
+  {
+    "title": "Machine Learning Engineer",
+    "description": "Greetings from TCS TCS is hiring MLOps Engineer Experience: 4-15 years Location: PAN India, preferably Pune, Chennai, Hyderabad, Kolkata, NCR Mode of interview : Walk in Walk in Location : Bangalore/Vizag Date of walk in : 9th May'26 Job Description:- 4 to 15 years of experience (2 years in AI/Gen AI is must). Required Skills: Degree in computer science, artificial intelligence, or IT. Strong knowledge of MLOps principles and the end-to-end ML lifecycle: data preparation \u2192 training \u2192 validation\u2026",
+    "role": "MLOps Engineer"
+  },
+  {
+    "title": "AI Architect",
+    "description": "Core Responsibilities Architecture & System Design: Own the end-to-end design of AI and GenAI systems from data ingestion and vector indexing to model deployment and inference optimization. Architect scalable LLM/RAG pipelines, multiagent workflows, and generative AI services reusable across client domains. Define enterprise standards for embeddings, prompt orchestration, caching layers, and evaluation pipelines. MLOps & Production Deployment: Establish repeatable patterns for fine-tuning and d\u2026",
+    "role": "MLOps Engineer"
+  },
+  {
+    "title": "MLOps Manager",
+    "description": "Job Role: MLOps Manager Experience: 12\u201317 Years Location: Hyderabad, India Early Joiners Preferred About the Role We are looking for a MLOps Manager to lead the design, build, and scale of enterprise-grade MLOps and DevOps platforms. This role combines hands-on engineering excellence with team leadership , focusing on productionizing machine learning systems, enabling developer productivity, and driving automation at scale. You will work at the intersection of ML engineering, cloud infrastructu\u2026",
+    "role": "MLOps Engineer"
+  },
+  {
+    "title": "MLOps Engineer",
+    "description": "MLOps Engineer Location: India Job Type: Full-time, Remote Experience Level: Mid-Level 3yrs About the Role We are looking for an MLOps Engineer to design, build, and operate production-grade infrastructure and pipelines for Machine Learning (ML), Deep Learning and Generative AI (GenAI) solutions. Your primary focus is ensuring these systems are reliable, scalable, observable, and secure across the full lifecycle\u2014training, deployment, monitoring, and retraining. This is a hands-on role at the in\u2026",
+    "role": "MLOps Engineer"
+  },
+  {
+    "title": "MLOps Engineer",
+    "description": "We are looking for a skilled MLOps Engineer to support end-to-end model deployment, automation, and monitoring. ? Position: MLOps Engineer ? Location: India ? Experience: 3\u20136 Years ? Educational Qualification: B.Tech / M.Tech in Computer Science, AI/ML, or related discipline Certifications in AWS, Azure, or GCP (preferred) Open-source contributions, research papers, or case studies are a plus Requirements Key Responsibilities: Deploy and manage AI/ML models across development, staging, and prod\u2026",
+    "role": "MLOps Engineer"
+  },
+  {
+    "title": "MLops Engineer",
+    "description": "Role - MLops Engineer Required Experience - 4 Years Location - Pune, Gurgaon, Noida, Bhopal, Bangalore Mode - Hybrid Key Requirements: 4 years of experience in Software Engineering with MLOps focus Strong expertise in AWS, particularly AWS SageMaker (required) AWS Data Zone experience (preferred) Proficiency in Python, R, Scala, or Spark Experience developing scalable, reliable, and secure applications Track record of production-grade development, integration and support Skills:- Amazon Web Ser\u2026",
+    "role": "MLOps Engineer"
+  },
+  {
+    "title": "MLops Engineer",
+    "description": "Role - MLops Engineer Location - Pune, Gurgaon, Noida, Bhopal, Bangalore Mode - Hybrid Role Overview We are looking for an experienced MLOps Engineer to join our growing AI/ML team. You will be responsible for automating, monitoring, and managing machine learning workflows and infrastructure in production environments. This role is key to ensuring our AI solutions are scalable, reliable, and continuously improving. Key Responsibilities Design, build, and manage end-to-end ML pipelines, includin\u2026",
+    "role": "MLOps Engineer"
+  },
+  {
+    "title": "MLOps Engineer",
+    "description": "Job Title: DevOps / MLOps Engineer \u2013 GCP, Kubernetes, GPU Workloads, Python Job Description We are looking for an MLOps Engineer with 4\u20137 years of experience in cloud infrastructure, web application development, and ML pipeline deployment. The ideal candidate will manage GPU workloads on Kubernetes (GKE/EKS), optimize ML infrastructure, and handle scalable web applications in cloud environments. Responsibilities: Develop and maintain web apps using Python, TypeScript, and Node.js . Manage DevOp\u2026",
+    "role": "MLOps Engineer"
+  },
+  {
+    "title": "MLOps Engineer",
+    "description": "Job Description Staff MLOps Engineer Company Description: Drawing on nearly four centuries of collective experience across Wabtec, GE Transportation and Faiveley Transport, the company has unmatched digital expertise, technological innovation, and world-class manufacturing and services, enabling the digital-rail-and-transit ecosystems. Wabtec is focused on performance that drives progress, creating transportation solutions that move and improve the world. Wabtec has approximately 27,000 employe\u2026",
+    "role": "MLOps Engineer"
+  },
+  {
+    "title": "MLOps Engineer",
+    "description": "At Zimmer Biomet, we believe in pushing the boundaries of innovation and driving our mission forward. As a global medical technology leader for nearly 100 years, a patient's mobility is enhanced by a Zimmer Biomet product or technology every 8 seconds. As a Zimmer Biomet team member, you will share in our commitment to providing mobility and renewed life to people around the world. To support our talent team, we focus on development opportunities, robust employee resource groups (ERGs), a flexi\u2026",
+    "role": "MLOps Engineer"
+  },
+  {
+    "title": "MLOps Engineer",
+    "description": "Job Description We are seeking a talented and motivated MLOps Engineer to join our growing team. In this role, you will be responsible for building, deploying, and maintaining scalable machine learning systems and pipelines. You will collaborate closely with data scientists, software engineers, and stakeholders to ensure seamless integration of machine learning models into production environments. Key Responsibilities Design, develop, and maintain scalable ML pipelines and workflows Deploy and \u2026",
+    "role": "MLOps Engineer"
+  },
+  {
+    "title": "MLOps Engineer",
+    "description": "MLOps Engineer Required Candidate profile : 3 years\u2019 experience in developing continuous integration and deployment (CI/CD) pipelines (e.g. Jenkins, Github Actions) and bringing ML models to CI/CD pipelines Candidate with strong Azure expertise Exposure of Productionize the models Candidate should have complete knowledge of Azure ecosystem, especially in the area of DE Candidate should have prior experience in Design, build, test, and maintain machine learning infrastructure to empower data sci\u2026",
+    "role": "MLOps Engineer"
+  },
+  {
+    "title": "MLOps Engineer",
+    "description": "We re looking for a GCP ML/MLOps Engineering Specialist who is experienced in designing and implementing ML applications at scale in production for our ML Engineering team. The team is a cross-functional team and has ML Engineers and Software Engineers, and closely works with data scientists and data engineers in designing, building and operationalizing AI/ML models. Roles and Responsibilities: As a ML Engineering Specialist, you will be a key stakeholder and owning responsibility in designing \u2026",
+    "role": "MLOps Engineer"
+  },
+  {
+    "title": "MLOps Engineer",
+    "description": "Job Description: As a MLOps Engineer in QuantumBlack you will : Develop and deploy technology that e nable s data scientists and data engineers to build , productionize and deploy machine learning models following best practices. Work to set the standards for SWE and DevOps practices with in multi - disciplinary delivery teams Choose and use the right cloud services, DevOps tooling and ML tooling for the team to be able to produce high - quality code that allows your team to release to producti\u2026",
+    "role": "MLOps Engineer"
+  },
+  {
+    "title": "MLOps Engineer",
+    "description": "Company Overview: At Codvo, software and people transformations go hand-in-hand. We are a global empathy-led technology services company. Product innovation and mature software engineering are part of our core DNA. Respect, Fairness, Growth, Agility, and Inclusiveness are the core values that we aspire to live by each day. We continue to expand our digital strategy, design, architecture, and product management capabilities to offer expertise, outside-the-box thinking, and measurable results Job\u2026",
+    "role": "MLOps Engineer"
+  },
+  {
+    "title": "MLOps Engineer",
+    "description": "MLOps Engineer Help shape the future of mobility. Imagine a world with zero vehicle accidents, zero vehicle emissions, and wireless vehicle connectivity all around us. Every day, we move closer to making that world a reality. Aptiv\u2019s passionate team of engineers and developers creates advanced safety systems, high-performance electrification solutions and data connectivity solutions so that automakers can bring advanced capabilities to more people around the globe. This is how we enable sustain\u2026",
+    "role": "MLOps Engineer"
+  },
+  {
+    "title": "MLOps Engineer",
+    "description": "Every day, Global Payments makes it possible for millions of people to move money between buyers and sellers using our payments solutions for credit, debit, prepaid and merchant services. Our worldwide team helps over 3 million companies, more than 1,300 financial institutions and over 600 million cardholders grow with confidence and achieve amazing results. We are driven by our passion for success and we are proud to deliver best-in-class payment technology and software solutions. Join our dyn\u2026",
+    "role": "MLOps Engineer"
+  },
+  {
+    "title": "MLOPs Engineer",
+    "description": "Key Responsibilities: MLOps Pipeline Development: Design, build, and maintain end-to-end MLOps pipelines for deploying ML and GenAI models. Automation: Automate model training, validation, deployment, and monitoring using industry best practices. CI/CD Optimization: Optimize CI/CD workflows for ML models and integrate them with cloud and on-premises infrastructure. Model Serving: Develop scalable model serving solutions using frameworks like TensorFlow Serving, Triton Inference Server, or simil\u2026",
+    "role": "MLOps Engineer"
+  },
+  {
+    "title": "MLOps Engineer",
+    "description": "Key Responsibilities: Work with distributed systems and implement asynchronous programming patterns Design and develop scalable backend applications using Python Build and integrate applications leveraging LLMs or traditional Machine Learning techniques Develop and maintain microservices-based architectures Work with databases and caching systems to optimize application performance Participate in code reviews and maintain high code quality standards Write clean, maintainable, and well-documente\u2026",
+    "role": "MLOps Engineer"
+  },
+  {
+    "title": "MLOps Engineer",
+    "description": "Key Responsibilities: Pipeline Development: Design, build, and maintain scalable and reliable MLOps pipelines for automating the machine learning lifecycle. Model Deployment: Deploy machine learning models into production environments using Docker and Kubernetes for robust containerized infrastructure. CI/CD Automation: Automate continuous integration and deployment (CI/CD) processes for ML workflows using Jenkins or similar tools. Monitoring & Troubleshooting: Monitor deployed models and pipel\u2026",
+    "role": "MLOps Engineer"
+  },
+  {
+    "title": "MLOPS Engineer",
+    "description": "Research and implement MLOps tools, frameworks and platforms for our Data Science projects. Work on a backlog of activities to raise MLOps maturity in the organization. Proactively introduce a modern, agile and automated approach to Data Science. Conduct internal training and presentations about MLOps tools' benefits and usage. Required experience and qualifications: Wide experience with Kubernetes. Experience in operationalization of Data Science projects (MLOps) using at least one of the popu\u2026",
+    "role": "MLOps Engineer"
+  },
+  {
+    "title": "MLops Engineer",
+    "description": "5 years of experience in MLOps and building ML pipelines Deep understanding of the MLOps lifecycle and automation of ML workflows Proficient in Python 310 and related libraries such as pandas NumPy and TensorFlow Strong experience in GPU accelerators and CUDA for model training and optimization Proven experience in model monitoring drift detection and maintaining model accuracy over time Familiarity with CICD pipelines Docker Kubernetes and cloud infrastructure Strong problem solving skills wit\u2026",
+    "role": "MLOps Engineer"
+  },
+  {
+    "title": "MLOps Engineer",
+    "description": "Architect and optimize ML infrastructure with Kubeflow, MLflow, SageMaker Pipelines. Build CI/CD pipelines (GitHub Actions, Jenkins, GitLab CI/CD). Automate ML workflows including feature engineering, retraining, and deployment. Scale ML models using Docker, Kubernetes, and Airflow. Ensure model observability, security, and cost optimization on cloud platforms (AWS/GCP/Azure). Must-Have Skills: Proficiency in Python, TensorFlow, PyTorch, and CI/CD pipelines. Hands-on experience with cloud ML pl\u2026",
+    "role": "MLOps Engineer"
+  },
+  {
+    "title": "MLOPS Engineer",
+    "description": "\u2022 Strong proficiency in Python and FastAPI. \u2022 Experience with MLOps tools and ML experimentation platforms such as MLflow (Runs & Experiments) \u2022 Expertise in model versioning and lifecycle management (model training) \u2022 Knowledge of ML frameworks/libraries (e.g., TensorFlow, PyTorch) and orchestration tools such as MLflow, Ray.io , Kubeflow, and Airflow \u2022 Familiarity with Docker, Kubernetes, and microservice-based architectures \u2022 Experience with tools such as MLflow, LakeFS, MinIO, and NATS for \u2026",
+    "role": "MLOps Engineer"
+  },
+  {
+    "title": "MLOps Engineer",
+    "description": "Come work at a place where innovation and teamwork come together to support the most exciting missions in the world! We are looking for a highly motivated Machine Learning Operations Engineer with 3\u20134 years of experience in building and deploying end-to-end ML products in production environments. The ideal candidate has a strong ML background in Binary/ Multi class Classification, Recommendation Chatbot Applications and deploying training/inference pipelines, with hands-on experience in CI/CD, \u2026",
+    "role": "MLOps Engineer"
+  },
+  {
+    "title": "Mlops Engineer",
+    "description": "Skills - MLOps Pipeline Development | CI/CD (Jenkins) | Automation Scripting | Model Deployment & Monitoring | ML Lifecycle Management | Version Control & Governance | Docker & Kubernetes | Performance Optimization | Troubleshooting | Security & Compliance Responsibilities: 1. Design, develop, and implement MLOps pipelines for the continuous deployment and integration of machine learning models 2. Collaborate with data scientists and engineers to understand model requirements and optimize deplo\u2026",
+    "role": "MLOps Engineer"
+  },
+  {
+    "title": "MLOps Engineer",
+    "description": "Description Candidate will work closely with data engineering, data science, and platform engineering teams. They usually work with Python, Azure Machine Learning or Fabric Data Science, Spark/Databricks-style processing, CI/CD, Git, and monitoring tools, while also supporting analytics consumption through Power BI or semantic models. This role also includes collaboration with business stakeholders to convert requirements into deployable ML solutions Responsibilities Key Responsibilities Manage\u2026",
+    "role": "MLOps Engineer"
+  },
+  {
+    "title": "AI/ML Engineer",
+    "description": "About the job Jon Description: Data Scientist Experience: 6-8 yrs Location: Greater Noida MLOps/LLMOps Engineer with a strong background in continual learning, CI/CD, and cloud infrastructure , particularly on Azure, GCP, and AWS . The ideal candidate will have extensive hands-on experience in Python and ML libraries (Scikit-learn, TensorFlow, PyTorch), and a proven track record in deploying, monitoring, and optimizing machine learning and large language model pipelines. Core Responsibilities &\u2026",
+    "role": "MLOps Engineer"
+  },
+  {
+    "title": "Sr. MLOps Engineer",
+    "description": "We are seeking a Senior MLOps Engineer to design, build, and maintain the infrastructure and pipelines that operationalize AI and Machine Learning systems at scale. This role bridges the gap between model development and production deployment\u2014ensuring ML and GenAI workloads are reliable, observable, cost-efficient, and continuously improving across enterprise environments. Key Responsibilities Design and implement end-to-end ML pipelines covering data ingestion, feature engineering, model train\u2026",
+    "role": "MLOps Engineer"
+  },
+  {
+    "title": "MLOps Engineer_5years",
+    "description": "Role Summary We are seeking a highly skilled Cloud / MLOps Engineer to support machine learning development teams and drive end-to-end automation for model deployment and operations. The ideal candidate will have strong expertise across Azure, Databricks, and Kubernetes platforms , with a focus on building scalable, secure, and efficient MLOps pipelines. Key Responsibilities Design, build, and maintain CI/CD/CT pipelines for ML models using tools such as Azure DevOps, GitHub Actions, or Jenkins\u2026",
+    "role": "MLOps Engineer"
+  },
+  {
+    "title": "Artificial Intelligence Engineer",
+    "description": "Impact you will make Join a group of highly talented and motivated data scientists and data engineers with significant healthcare experience to help a thriving Healthcare function. Build a highly functional and efficient Agentic AI platform that brings together data, analytic insights, machine learning (ML) and AI tools to allow FinThrive to design and run complex automations in Healthcare business operations. Partner with internal business, product, and technical teams to analyze requirements \u2026",
+    "role": "MLOps Engineer"
+  },
+  {
+    "title": "Senior MLOps Engineer",
+    "description": "Senior MLOps Engineer Location: India | Job Type: Full-time, Remote | Experience Level: Senior About the Role We are looking for a Senior MLOps Engineer to design, build, and operate production-grade infrastructure and pipelines for Machine Learning (ML), Deep Learning, and Generative AI (GenAI) solutions. Your primary focus is ensuring these systems are reliable, scalable, observable, and secure across the full lifecycle\u2014training, deployment, monitoring, and retraining. This is a senior hands-\u2026",
+    "role": "MLOps Engineer"
+  },
+  {
+    "title": "MLOps Engineer (Freelancer)",
+    "description": "AI Opportunities with Soul AIs Expert Community!. Are you an MLOps Engineer ready to take your expertise to the next levelSoul AI (by Deccan AI) is building an elite network of AI professionals, connecting top-tier talent with cutting-edge projects. Why Join Above market-standard compensation. Contract-based or freelance opportunities (2''12 months). Work with industry leaders solving real AI challenges. Flexible work locations- Remote | Onsite | Hyderabad/Bangalore. Your Role: Architect and op\u2026",
+    "role": "MLOps Engineer"
+  },
+  {
+    "title": "MLOps Engineer (Freelancer)",
+    "description": "Are you an MLOps Engineer ready to elevate your expertise Soul AI (by Deccan AI) is building a high-caliber network of professionals to collaborate on cutting-edge AI initiatives. This is your chance to solve real-world AI challenges alongside industry leaders. Why Join Compensation above market standards Flexible contract durations (2 to 12 months) Opportunities for freelance or contract-based work Work remotely, onsite with clients, or from Soul AI offices in Hyderabad or Bangalore Become par\u2026",
+    "role": "MLOps Engineer"
+  },
+  {
+    "title": "MLOps Engineer (Freelancer)",
+    "description": "Soul AI, founded by IIT Bombay and IIM Ahmedabad alumni, is building an elite network of AI professionals to power the next generation of intelligent systems. With operations in San Francisco and Hyderabad, we specialize in high-quality human-curated data and AI-first scaled operations. We're now seeking top-tier MLOps Engineers to join our expert community and work on cutting-edge AI projects with global impact. Why Join Above market-standard compensation Contract-based or freelance roles (2\u20131\u2026",
+    "role": "MLOps Engineer"
+  },
+  {
+    "title": "Staff MLOps Engineer",
+    "description": "We are looking for a seasoned Staff MLOps Engineer to lead the design, implementation, and scaling of enterprise-grade machine learning platforms on AWS . This role will focus on building reliable, secure, and cost-efficient MLOps systems that enable data scientists and engineers to deploy, monitor, and manage ML models in production. As a Staff Engineer, you will provide technical leadership, define best practices, and drive cross-team alignment on ML platform architecture. Key Responsibilitie\u2026",
+    "role": "MLOps Engineer"
+  },
+  {
+    "title": "Staff MLOps Engineer",
+    "description": "We are looking for a seasoned Staff MLOps Engineer to lead the design, implementation, and scaling of enterprise-grade machine learning platforms on AWS . This role will focus on building reliable, secure, and cost-efficient MLOps systems that enable data scientists and engineers to deploy, monitor, and manage ML models in production. As a Staff Engineer, you will provide technical leadership, define best practices, and drive cross-team alignment on ML platform architecture. Key Responsibilitie\u2026",
+    "role": "MLOps Engineer"
+  },
+  {
+    "title": "Senior MLOps Engineer",
+    "description": "8 years of experience in software, data, or ML engineering, including 5 years in MLOps or operationalizing AI/ML workflows. Deep hands-on experience with Python, Spark/PySpark, SQL, and orchestration tools such as Airflow Proven experience with public cloud platforms, preferably GCP (Vertex AI, GKE, Cloud Run) or AWS. Skilled in Databricks, FastAPI, and containerized environments using Docker, Kubernetes Deep understanding of CI/CD pipelines, version control systems (e.g., Git), and infrastruct\u2026",
+    "role": "MLOps Engineer"
+  }
+]

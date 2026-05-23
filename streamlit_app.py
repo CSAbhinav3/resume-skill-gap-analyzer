@@ -20,7 +20,7 @@ import streamlit as st
 from app.services.pdf_ingestion import ingest_pdf, PDFIngestionError
 from app.services.skill_extractor import extract_skills
 from app.services.taxonomy_engine import taxonomy_index
-from app.services.gap_analyzer import analyze_gap
+from app.services.role_based_gap_analyzer import analyze_gap
 from app.services.roadmap_generator import generate_roadmap
 
 # ── Patch settings with Streamlit secrets directly ──
