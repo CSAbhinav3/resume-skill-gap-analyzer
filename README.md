@@ -3,7 +3,7 @@
 An end-to-end AI/ML system that analyzes a candidate’s resume against a market-derived skill taxonomy and generates a personalised 30/60/90-day learning roadmap.
 
 🔗 **Live Demo:**  
-https://resume-skill-gap-analyzer-dtqer5mn58wss9fkbasiec.streamlit.app/
+[https://resume-skill-gap-analyzer-dtqer5mn58wss9fkbasiec.streamlit.app/](https://resume-skill-gap-analyzer-sv6fbdsutzuvufjdph9nek.streamlit.app/)
 
 ## 🎥 Demo Video
 
