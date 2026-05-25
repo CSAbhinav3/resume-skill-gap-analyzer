@@ -7,7 +7,7 @@ An end-to-end AI/ML system that analyzes a candidate’s resume against a market
 
 ## 🎥 Demo Video
 
-▶️ [Watch the 1-Minute Project Demo](https://www.loom.com/share/8fbc181d5fed41ce8cc77ec1a6f2be82)
+▶️ [Watch the Project Demo](https://www.loom.com/share/8fbc181d5fed41ce8cc77ec1a6f2be82)
 ---
 
 # 📌 Overview
