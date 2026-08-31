@@ -29,7 +29,7 @@ async def call_llm(prompt: str) -> str:
                 }
             ],
             temperature=0.2,
-            max_tokens=2048,
+            max_tokens=4096,
         )
     except Exception as e:
         raise RuntimeError(f"Groq API call failed: {e}") from e

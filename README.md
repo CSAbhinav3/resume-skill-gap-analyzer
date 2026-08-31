@@ -94,7 +94,7 @@ FastAPI Backend + Streamlit Frontend
 |---|---|
 | Backend API | FastAPI + Uvicorn |
 | Frontend | Streamlit |
-| LLM | Groq (llama-3.3-70b-versatile) |
+| LLM | Groq (openai/gpt-oss-120b) |
 | NLP Embeddings | sentence-transformers |
 | Embedding Model | all-MiniLM-L6-v2 |
 | Similarity Engine | scikit-learn cosine similarity |
@@ -366,7 +366,7 @@ Create `.env`
 
 ```env
 GROQ_API_KEY=your_key_here
-GROQ_MODEL=llama-3.3-70b-versatile
+GROQ_MODEL=openai/gpt-oss-120b
 ```
 
 ---
@@ -417,7 +417,7 @@ streamlit_app.py
 
 ```toml
 GROQ_API_KEY = "your_api_key"
-GROQ_MODEL = "llama-3.3-70b-versatile"
+GROQ_MODEL = "openai/gpt-oss-120b"
 ```
 
 4. Deploy
